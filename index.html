@@ -8,38 +8,40 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
     <!--<link rel="stylesheet" href="css/fontawesome.min.css">-->
     <link rel="stylesheet" href="css/common.css">
-	<script type="text/javascript" src="js/all.js"></script>   
+	<script type="text/javascript" src="js/all.js"></script>
 </head>
 <body>
 
-<header id="id-header" class="clearfix center">
-    <h1 id="id-title">Spectrum <span class="class-subtitle">Dashboard</span></h1>
-    
-    <div class="class-line_select">
-        <div class="class-line_sim">
-            <span>LINE</span>
-            <select>
-                <option value="sanken_sim">Sanken SIM</option>
-            </select>
+<div class="class-hdWrap">
+    <header id="id-header" class="clearfix center">
+        <h1 id="id-title">Spectrum <span class="class-subtitle">Dashboard</span></h1>
+
+        <div class="class-lineSelect">
+            <div class="class-lineSim">
+                <span>LINE</span>
+                <select>
+                    <option value="sanken_sim">Sanken SIM</option>
+                </select>
+            </div>
+            <div class="class-lineMachine">
+                <span>MACHINE</span>
+                <select>
+                    <option value="all">ALL</option>
+                </select>
+            </div>
         </div>
-        <div class="class-line_machine">
-            <span>MACHINE</span>
+
+        <div class="class-langTime">
             <select>
-                <option value="all">ALL</option>
+                <option value="english">ENGLISH</option>
             </select>
+            <p>
+                <span class="class-day">2017-11-13</span>
+                <span class="class-time">20&#58;47&#58;23</span>
+            </p>
         </div>
-    </div>
-    
-    <div class="class-lang_time">
-        <select>
-            <option value="english">ENGLISH</option>
-        </select>
-        <p>
-            <span class="class-day">2017-11-13</span>
-            <span class="class-time">20&#58;47&#58;23</span>
-        </p>
-    </div>
-</header>
+    </header>
+</div>
 
 <section id="id-container" class="center">
     <section class="class-board">
@@ -48,180 +50,287 @@
         <div class="class-alarm clearfix">
             <div>
                 <p class="class-tacttime">4.4 sec</p>
-                <p class="class-alarm_txt">Tact Time</p>
+                <p class="class-alarmTxt">Tact Time</p>
             </div>
             <div>
                 <p class="class-output">5650 ea</p>
-                <p class="class-alarm_txt">Daily Output</p>
+                <p class="class-alarmTxt">Daily Output</p>
             </div>
             <div>
                 <p class="class-rate">87 &#37;</p>
-                <p class="class-alarm_txt">Daily Operating Rate</p>
+                <p class="class-alarmTxt">Daily Operating Rate</p>
             </div>
         </div>
         
         <div class="class-WBIwrap clearfix">
-            <div class="class-WBIalarm_banner">
-                <div class="class-WBIalarm_inner"><!--중간 이미지 영역--></div>
-                
-                <div class="class-WBIalarm_paging">
-                    <button class="class-btn_prev">&lt;</button>
-                    <div class="class-paging">
-                        <a class="class-paging01 act" href="#">1</a>
-                        <a class="class-paging01" href="#">2</a>
-                        <a class="class-paging01" href="#">3</a>
-                    </div>
-                    <button class="class-btn_next">&gt;</button>
-                </div>
-                <!-- 페이징 -->
-                
+            <div class="class-WBIalarmBanner">
+                <div class="class-WBIalarmInner"><!--중간 이미지 영역--></div>
             </div>
             <!-- class-WBalarm E -->
                 
             <div class="class-alarmWBI">
                 <p class="class-WBItitle">
-                    <span class="class-WBItitle_num">15</span>
-                    <span class="class-WBItitle_txt">alarms on the</span>
-                    <span class="class-WBItitle_strong">WireBondingInspection</span>
+                    <span class="class-WBItitleNum">06</span>
+                    <span class="class-WBItitleTxt">alarms on the</span>
+                    <span class="class-WBItitleStrong">WireBondingInspection</span>
                 </p>
 
-                <ul class="class-alarm_list clearfix">
+                <ul class="class-alarmList clearfix">
                     <li>
-                        <p class="class-list_tit">E0811</p>
-                        <p>Table</p>
-                        <p>TopUnLoadingBF_Error&#91;21&#93; Tray Stacker Stop-</p>
+                        <p class="class-listTit">E0811<span class="italic">Table</span></p>
+                        <p>TopUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper</p>
+                        <p>Down Sensor &#91;Unloader Buffer&#35;5&#93; Error&#39;</p>
                     </li>
                     <li>
-                        <p class="class-list_tit">901<span>Attachment</span></p>
-                        <p>UnLoadingBF_Error&#91;14&#93; Unloader Buffer&#61;1</p>
-                        <p>Stopper Down Sensor &#91;Unloader DVT&#61;1&#93; Error</p>
+                        <p class="class-listTit">901<span class="italic">Attachment Unload</span></p>
+                        <p>UnLoadingBF_Error&#91;14&#93; Unloader Buffer&#61;1 Stopper</p>
+                        <p>Down Sensor &#91;Unloader DVT&#61;1&#93; Error</p>
                     </li>
                     <li>
-                        <p class="class-list_tit">E1020</p>
-                        <p>Wiper</p>
+                        <p class="class-listTit">E1023<span class="italic">Wiper</span></p>
                         <p>No initialization MMC board</p>
                     </li>
                     <li>
-                        <p class="class-list_tit">E1020</p>
-                        <p>Wiper</p>
-                        <p>NUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper</p>
+                        <p class="class-listTit">E1024<span class="italic">Wiper</span></p>
+                        <p>NUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper Down</p>
+                        <p>Sensor &#91;Unloader Buffer&#35;5&#93; Error&#39;</p>
                     </li>
                     <li>
-                        <p class="class-list_tit">E0811</p>
-                        <p>Table</p>
-                        <p>TopUnLoadingBF_Error&#91;21&#93; Tray Stacker Stop-</p>
+                        <p class="class-listTit">E0815<span class="italic">Wiper</span></p>
+                        <p>TopUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper</p>
+                        <p>Down Sensor &#91;Unloader Buffer&#35;5&#93; Error&#39;</p>
                     </li>
                     <li>
-                        <p class="class-list_tit">E1020</p>
-                        <p>Wiper</p>
-                        <p>NUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper</p>
+                        <p class="class-listTit">E1026<span class="italic">Wiper</span></p>
+                        <p>NUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper Down</p>
+                        <p>Sensor &#91;Unloader Buffer&#35;5&#93; Error&#39;</p>
                     </li>
                 </ul>
             </div>
             <!-- alarmWBI E -->
 
             <div class="class-itemWBI">
+                <div class="class-WBIalarmPaging">
+                    <button class="class-btnPrev">&lt;</button>
+                    <div class="class-paging">
+                        <a class="class-paging01 act" href="#" onclick="javascript:pagenation('1');">1</a>
+                        <a class="class-paging02" href="#" onclick="javascript:pagenation('2');">2</a>
+                        <a class="class-paging03" href="#" onclick="javascript:pagenation('3');">3</a>
+                    </div>
+                    <button class="class-btnNext">&gt;</button>
+                </div>
+                <!-- 페이징 -->
                 <p class="class-WBItitle">
-                    <span class="class-WBItitle_num">05</span>
-                    <span class="class-WBItitle_txt">Items exceeded monitoring level on the</span>
-                    <span class="class-WBItitle_strong">WireBondingInspection</span>
+                    <span class="class-WBItitleNum">15</span>
+                    <span class="class-WBItitleTxt">Items exceeded monitoring level on the</span>
+                    <span class="class-WBItitleStrong">WireBondingInspection</span>
                 </p>
 
-                <ul class="class-item_list clearfix">
+                <ul class="class-itemList clearfix" id="id-itemList01">
                     <li>
                         <p>Wiper / Usage Count</p>
                         <p>
-                            <span class="class-item_count_y wiper01">31052</span>
+                            <span class="class-itemCountY wiper01">31052</span>
                         </p>
                     </li>
                     <li>
                         <p>Wiper / Usage LF Bond Vision Skip Count</p>
-                        <p>
-                            <span class="class-item_count_r wiper02">98.95</span>
-                            <span>mm/s</span>
+                        <p class="class-itemCountR wiper02">
+                            98.95<span>mm/s</span>
                         </p>
                     </li>
                     <li>
                         <p>Wiper / Usage Count</p>
-                        <p>
-                            <span class="class-item_count_y wiper03">31052</span>
-                            <span>Count</span>
+                        <p class="class-itemCountY wiper03">
+                           31052<span>Count</span>
                         </p>
                     </li>
                     <li>
                         <p>Bond Head / LF Bond Vision Skip Count</p>
-                        <p>
-                            <span class="class-item_count_r bondhead01">20</span>
-                            <span>sec</span>
+                        <p class="class-itemCountR bondhead01">
+                            20<span>sec</span>
                         </p>
                     </li>
                     <li>
                         <p>Bond Head / LF Bond Vision Skip Count</p>
-                        <p>
-                            <span class="class-item_count_y bondhead02">16</span>
-                            <span>Times</span>
+                        <p class="class-itemCountY bondhead02">
+                            16<span>Times</span>
                         </p>
                     </li>
                     <li>
                         <p>Bond Head / LF Bond Vision Skip Count</p>
-                        <p>
-                            <span class="class-item_count_y bondhead03">6</span>
-                            <span>Times</span>
+                        <p class="class-itemCountY bondhead03">
+                            6<span>Times</span>
                         </p>
                     </li>
                     <li>
                         <p>Bond Head / LF Bond Vision Skip Count</p>
-                        <p>
-                            <span class="class-item_count_r bondhead04">90.57</span>
-                            <span>mm/s</span>
+                        <p class="class-itemCountR bondhead04">
+                            90.57<span>mm/s</span>
                         </p>
                     </li>
                     <li>
                         <p>Wiper / LF Bond Vision Skip Count</p>
-                        <p>
-                            <span class="class-item_count_r wiper04">31052</span>
-                            <span>ea</span>
+                        <p class="class-itemCountR wiper04">
+                            31052<span>ea</span>
                         </p>
                     </li>
                     <li>
                         <p>Bond Head / LF Bond Vision Skip Count</p>
-                        <p>
-                            <span class="class-item_count_y bondhead05">31052</span> 
+                        <p class="class-itemCountY bondhead05">
+                            31052
                         </p>
                     </li>
                 </ul>
+				<!-- itemList01 E -->
+
+				<ul class="class-itemList clearfix" id="id-itemList02" style="display:none;">
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR bondhead01">
+                            20<span>sec</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountY bondhead02">
+                            16<span>Times</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountY bondhead03">
+                            6<span>Times</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR bondhead04">
+                            90.57<span>mm/s</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Wiper / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR wiper04">
+                            31052<span>ea</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountY bondhead05">
+                            31052
+                        </p>
+                    </li>
+					 <li>
+                        <p>Wiper / Usage Count</p>
+                        <p>
+                            <span class="class-itemCountY wiper01">31052</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Wiper / Usage LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR wiper02">
+                            98.95<span>mm/s</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Wiper / Usage Count</p>
+                        <p class="class-itemCountY wiper03">
+                           31052<span>Count</span>
+                        </p>
+                    </li>
+                </ul>
+				<!-- itemList02 E -->
+
+				<ul class="class-itemList clearfix" id="id-itemList03" style="display:none;">
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR bondhead04">
+                            90.57<span>mm/s</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Wiper / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR wiper04">
+                            31052<span>ea</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountY bondhead05">
+                            31052
+                        </p>
+                    </li>
+					<li>
+                        <p>Wiper / Usage Count</p>
+                        <p>
+                            <span class="class-itemCountY wiper01">31052</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Wiper / Usage LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR wiper02">
+                            98.95<span>mm/s</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Wiper / Usage Count</p>
+                        <p class="class-itemCountY wiper03">
+                           31052<span>Count</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountR bondhead01">
+                            20<span>sec</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountY bondhead02">
+                            16<span>Times</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Bond Head / LF Bond Vision Skip Count</p>
+                        <p class="class-itemCountY bondhead03">
+                            6<span>Times</span>
+                        </p>
+                    </li>
+                </ul>
+				<!-- itemList03 E -->
             </div>
             <!-- itemWBI E -->
         </div>
         <!-- WBIwrap E -->
         
         <div class="class-alarmNum clearfix">
-            <div class="class-num_date">
+            <div class="class-numDate">
                 <h3>Number of alarms by date</h3>
-                <div class="class-date_graph"><!--img--></div>
+                <div class="class-dateGraph"><!--img--></div>
                 
                 <ul class="clearfix">
                     <li>
                         <p>Today</p>
-                        <p class="class-today_alarm">05</p>
+                        <p class="class-todayAlarm">05</p>
                     </li>
                     <li>
                         <p>Average for<br>7 days</p>
-                        <p class="class-week_alarm">15</p>
+                        <p class="class-weekAlarm">15</p>
                     </li>
                     <li>
                         <p>Average for<br>30 days</p>
-                        <p class="class-month_alarm">09</p>
+                        <p class="class-monthAlarm">09</p>
                     </li>
                 </ul>
             </div>
             <!-- num_date E -->
-            <div class="class-num_machine">
+            <div class="class-numMachine">
                 <h3>Number of alarms by machine</h3>
-                <div class="class-machine_graph"><!--img--></div>
+                <div class="class-machineGraph"><!--img--></div>
                 
                 <ul>
-                    <li class="class-num_tit">
+                    <li class="class-numTit">
                         <p>Top 3</p>
                     </li>
                     <li>
@@ -234,16 +343,16 @@
                     </li>
                     <li>
                         <p>3. SingleMounter_M_Mounter_</p>
-                        <p class="class-sl_m">07</p>
+                        <p class="class-slM">07</p>
                     </li>
                 </ul>
             </div>
             <!-- num_machine E -->
-            <div class="class-num_today_rank">
-                <h3>Alarm Rank Generated Today</h3>
+            <div class="class-numTodayRank">
+                <h3>Top 5 Generated Today</h3>
                 <ul>
                     <li class="clearfix">
-                        <div class="class-rank_num">
+                        <div class="class-rankNum">
                             <p>1</p>
                         </div>
                         <div>
@@ -251,12 +360,12 @@
                             <p class="class-countnum count01">Count 08</p>
                         </div>
                         <div class="class-history">
-                            <p>PKG / Cell Assy &#61;1 KG / Cell Assy &#61;2</p>
-                            <p>TUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper Down<br>Sensor &#91;Unloader Buffer&#61;5&#93; Error&#39;</p>
+                            <p class="italic">Attachment Unload</p>
+                            <p>UnLoadingBF_Error&#91;14&#93; Unloader Buffer&#35;1 Stopper<br>Down Sensor &#91;Unloader DVT&#35;1&#93; Error</p>
                         </div>
                     </li>
                     <li class="clearfix">
-                        <div class="class-rank_num">
+                        <div class="class-rankNum">
                             <p>2</p>
                         </div>
                         <div>
@@ -264,12 +373,12 @@
                             <p class="class-countnum count02">Count 05</p>
                         </div>
                         <div class="class-history">
-                            <p>PKG / Cell Assy &#61;1 KG / Cell Assy &#61;2 / PKG /Cell Assy</p>
-                            <p>TUnLoadingBF_Error&#91;21&#93; Tray Stacker<br>Sensor &#91;Unloader Buffer&#61;5&#93; Error&#39;</p>
+                            <p class="italic">Attachment Unload</p>
+                            <p>UnLoadingBF_Error&#91;14&#93; Unloader Buffer&#35;1 Stopper<br>Down Sensor &#91;Unloader DVT&#35;1&#93; Error</p>
                         </div>
                     </li>
                     <li class="clearfix">
-                        <div class="class-rank_num">
+                        <div class="class-rankNum">
                             <p>3</p>
                         </div>
                         <div>
@@ -277,12 +386,12 @@
                             <p class="class-countnum count03">Count 04</p>
                         </div>
                         <div class="class-history">
-                            <p>PKG / Cell Assy &#61;1 KG / Cell Assy &#61;2 / PKG /Cell Assy</p>
-                            <p>TUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper Down<br>Sensor</p>
+                            <p class="italic">Attachment Unload</p>
+                            <p>UnLoadingBF_Error&#91;14&#93; Unloader Buffer&#35;1 Stopper<br>Down Sensor &#91;Unloader DVT&#35;1&#93; Error</p>
                         </div>
                     </li>
                     <li class="clearfix">
-                        <div class="class-rank_num">
+                        <div class="class-rankNum">
                             <p>4</p>
                         </div>
                         <div>
@@ -290,12 +399,12 @@
                             <p class="class-countnum count04">Count 02</p>
                         </div>
                         <div class="class-history">
-                            <p>PKG / Cell Assy</p>
-                            <p>TUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper<br>Sensor &#91;Unloader Buffer&#61;5&#93; Error&#39;</p>
+                            <p class="italic">Attachment Unload</p>
+                            <p>UnLoadingBF_Error&#91;14&#93; Unloader Buffer&#35;1 Stopper<br>Down Sensor &#91;Unloader DVT&#35;1&#93; Error</p>
                         </div>
                     </li>
                     <li class="clearfix">
-                        <div class="class-rank_num">
+                        <div class="class-rankNum">
                             <p>5</p>
                         </div>
                         <div>
@@ -303,8 +412,8 @@
                             <p class="class-countnum count05">Count 01</p>
                         </div>
                         <div class="class-history">
-                            <p>PKG / Cell Assy &#61;1 KG / Cell Assy &#61;2 / ssy</p>
-                            <p>TUnLoadingBF_Error&#91;21&#93; Tray Stacker Stopper Down<br>Sensor &#91;Unloader Buffer&#61;5&#93; Error&#39;</p>
+                            <p class="italic">Attachment Unload</p>
+                            <p>UnLoadingBF_Error&#91;14&#93; Unloader Buffer&#35;1 Stopper<br>Down Sensor &#91;Unloader DVT&#35;1&#93; Error</p>
                         </div>
                     </li>
                 </ul>
@@ -315,177 +424,134 @@
     </section>
     
     <aside id="id-timeline">
-        <div class="class-time_tit clearfix">
-            <h3>Timeline</h3>
-            <div class="class-timeline_history">
-                <ul class="celarfix">
-                    <li>
-                        <span><i class="fas fa-cog ga-lg"></i></span>
-                        <span class="class-history01">15</span>
+        <div class="class-timeTit clearfix">
+            <h3 onclick="javascript:sorting('all');">Timeline</h3>
+            <div class="class-timelineHistory">
+                <ul class="clearfix">
+                    <li onclick="javascript:sorting('config');">
+						<span><i class="fas fa-cog "></i></span>
+						<span class="class-history01">15</span>
                     </li>
-                    <li>
-                        <span><i class="fas fa-tachometer-alt"></i></span>
-                        <span class="class-history02">01</span>
+                    <li onclick="javascript:sorting('dashboard');">
+						<span><i class="fas fa-tachometer-alt"></i></span>
+						<span class="class-history02">01</span>
                     </li>
-                    <li>
-                        <span><i class="fas fa-exclamation-triangle fa-lg"></i></span>
-                        <span class="class-history03">05</span>
+                    <li onclick="javascript:sorting('warning');">
+						<span><i class="fas fa-exclamation-triangle"></i></span>
+						<span class="class-history03">05</span>
                     </li>
-                    <li>
-                        <span><i class="fas fa-wrench fa-lg"></i></span>
-                        <span class="class-history04">95</span>
+                    <li onclick="javascript:sorting('repair');">
+						<span><i class="fas fa-wrench"></i></span>
+						<span class="class-history04">95</span>
                     </li>
                 </ul>
             </div>
         </div>
         <!-- time_tit E -->
-        <div class="class-timeline_inner">
+        <div class="class-timelineInner">
             <ul class="clearfix">
-                <li class="class-timeline01">
+                <li class="class-timeline01 warning">
                     <div class="class-timerwrap timer01">
-                        <p><i class="fas fa-exclamation-triangle fa-lg"></i></p>
+                        <p><i class="fas fa-exclamation-triangle "></i></p>
                         <p class="class-timer">20&#58;32&#58;27</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Alarm Occured</p>
-                        <p><span class="class-f_num">F101</span>&#58; No initialization MMC board MMC board</p>
-                        <p>It occuered 3 times today It occuered 3 times today</p>
+                        <p class="class-todayTit">Alarm Occured</p>
+                        <p><span class="class-tBlue">901</span> UnloaderBF_Error&#91;14&#93; Unloader Buffer&#35;1</p>
+                        <p>Stopper Down Sensor &#91;Unloader DVT&#35;1&#93;</p>
+                        <p>it occuered <span class="class-tBlue">3 times</span> today</p>
                     </div>
                 </li>
-                <li class="class-timeline02">
+                <li class="class-timeline02 dashboard">
                     <div class="class-timerwrap timer02">
                         <p><i class="fas fa-tachometer-alt"></i></p>
                         <p class="class-timer">19&#58;20&#58;27</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Management Level Exceeded</p>
-                        <p>PKG T/W&#35;1 <span class="class-tBlue">Align Guide X1</span> exceeded management level / Motor load <span class="class-tRed">215&#37;</span></p>
+                        <p class="class-todayTit">Management Level Exceeded</p>
+                        <p><span class="class-tWhite italic">Cgo Align Down Inspection 4 Y2 Align Down Result</span></p>
+                        <p>&#40;WireBondingInspection / Attachment Unload&#41; is <span class="class-tRed">1123mm</span>.</p>
                         <p>It occuered 4 times today</p>
                     </div>
                 </li>
-                <li class="class-timeline03">
+                <li class="class-timeline03 config">
                     <div class="class-timerwrap timer03">
                         <p><i class="fas fa-cog ga-lg"></i></p>
                         <p class="class-timer">15&#58;05&#58;12</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Setting Value Changed</p>
-                        <p>MICMounter Bond Head <span class="class-tBlue">Bond Force</span>Changed</p>
-                        <p>24g &#45; &gt;<span class="class-tBlue">22g</span></p>
+                        <p class="class-todayTit">Setting Value Changed</p>
+                        <p><span class="class-tWhite italic">Cgo Align Down Inspection 4 Y2 Align Down Result</span></p>
+                        <p>&#40;WireBondingInspection / Attachment Unload&#41; is changed.</p>
+                        <p>860 &#45; &gt;<span class="class-tBlue">880</span></p>
                     </div>
                 </li>
-                <li class="class-timeline04">
+                <li class="class-timeline04 repair">
                     <div class="class-timerwrap timer04">
-                        <p><i class="fas fa-wrench fa-lg"></i></p>
+                        <p><i class="fas fa-wrench "></i></p>
                         <p class="class-timer">20&#58;32&#58;27</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Lifecycle Monitoring</p>
-                        <p>PKG Cell Assy &#35; 1 <span class="class-tBlue">Slit Cutter &#45; Cutting count</span></p>
-                        <p>exceeded management level</p>
-                        <p>Cutting count <span class="class-tRed">1000108 /</span>Replaced 30 days ago</p>
+                        <p class="class-todayTit">Parts Replacement Cycle Occured</p>
+                        <p><span class="class-tWhite italic">Cgo Align Down Inspection 4 Y2 Align Down Result</span></p>
+                        <p>&#40;WireBondingInspection / Attachment Unload&#41; is out of monitorring level.</p>
+                        <p><span class="class-tRed">1123</span> &gt; 1040</p>
                     </div>
                 </li>
-                <li class="class-timeline05">
+                <li class="class-timeline05 warning">
                     <div class="class-timerwrap timer05">
-                        <p><i class="fas fa-exclamation-triangle fa-lg"></i></p>
+                        <p><i class="fas fa-exclamation-triangle "></i></p>
                         <p class="class-timer">20&#58;32&#58;27</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Alarm Occured</p>
-                        <p><span class="class-f_num">F101</span> &#58; No initialization MMC board MMC board</p>
-                        <p>It occuered 3 times today It occuered 3 times today</p>
+                        <p class="class-todayTit">Alarm Occured</p>
+                        <p><span class="class-tBlue">901</span> UnloaderBF_Error&#91;14&#93; Unloader Buffer&#35;1</p>
+                        <p>Stopper Down Sensor &#91;Unloader DVT&#35;1&#93;</p>
+                        <p>it occuered <span class="class-tBlue">3 times</span> today</p>
                     </div>
                 </li>
-                <li class="class-timeline06">
-                    <div class="class-timerwrap timer06">
+                <li class="class-timeline02 dashboard">
+                    <div class="class-timerwrap timer02">
                         <p><i class="fas fa-tachometer-alt"></i></p>
                         <p class="class-timer">19&#58;20&#58;27</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Management Level Exceeded</p>
-                        <p>PKG T/W&#35;1<span class="class-tBlue">Align Guide X1</span> exceeded management</p>
-                        <p>level / Motor load <span class="class-tRed">215&#37;</span></p>
+                        <p class="class-todayTit">Management Level Exceeded</p>
+                        <p><span class="class-tWhite italic">Cgo Align Down Inspection 4 Y2 Align Down Result</span></p>
+                        <p>&#40;WireBondingInspection / Attachment Unload&#41; is <span class="class-tRed">1123mm</span>.</p>
                         <p>It occuered 4 times today</p>
                     </div>
                 </li>
-                <li class="class-timeline07">
-                    <div class="class-timerwrap timer07">
+                <li class="class-timeline03 config">
+                    <div class="class-timerwrap timer03">
                         <p><i class="fas fa-cog ga-lg"></i></p>
                         <p class="class-timer">15&#58;05&#58;12</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Setting Value Changed</p>
-                        <p>MICMounter Bond Head <span class="class-tBlue">Bond Force</span> changed</p>
-                        <p>24g &#45; &gt; <span class="class-tBlue">22g</span></p>
+                        <p class="class-todayTit">Setting Value Changed</p>
+                        <p><span class="class-tWhite italic">Cgo Align Down Inspection 4 Y2 Align Down Result</span></p>
+                        <p>&#40;WireBondingInspection / Attachment Unload&#41; is changed.</p>
+                        <p>860 &#45; &gt;<span class="class-tBlue">880</span></p>
                     </div>
                 </li>
-                <li class="class-timeline08">
-                    <div class="class-timerwrap timer08">
-                        <p><i class="fas fa-wrench fa-lg"></i></p>
+                <li class="class-timeline04 repair">
+                    <div class="class-timerwrap timer04">
+                        <p><i class="fas fa-wrench "></i></p>
                         <p class="class-timer">20&#58;32&#58;27</p>
                     </div>
                     
                     <div class="class-timelineToday">
-                        <p class="class-today_tit">Lifecycle Monitoring</p>
-                        <p>PKG Cell Assy &#35; 1 <span class="class-tBlue">Slit Cutter &#45; 1 Cutting count</span></p>
-                        <p>exceeded management level</p>
-                        <p>Cutting count <span class="class-tRed">1000108 /</span> Replaced 30 days ago</p>
-                    </div>
-                </li>
-                <li class="class-timeline09">
-                    <div class="class-timerwrap timer09">
-                        <p><i class="fas fa-exclamation-triangle fa-lg"></i></p>
-                        <p class="class-timer">20&#58;32&#58;27</p>
-                    </div>
-                    
-                    <div class="class-timelineToday">
-                        <p class="class-today_tit">Alarm Occured</p>
-                        <p><span class="class-f_num">F101</span> &#58; No initialzation MMC board MMC board</p>
-                        <p>It occuered 3 times today It occuered 3 times today</p>
-                    </div>
-                </li>
-                <li class="class-timeline10">
-                    <div class="class-timerwrap timer10">
-                        <p><i class="fas fa-tachometer-alt"></i></p>
-                        <p class="class-timer">19&#58;20&#58;27</p>
-                    </div>
-                    
-                    <div class="class-timelineToday">
-                        <p class="class-today_tit">Management Level Exceeded</p>
-                        <p>PKG T/W&#35;1 <span class="class-tBlue">Align Guide X1</span> exceeded management</p>
-                        <p>level / Motor load <span class="class-tRed">215&#37;</span></p>
-                        <p>It occuered 4 times today</p>
-                    </div>
-                </li>
-                <li class="class-timeline11">
-                    <div class="class-timerwrap timer11">
-                        <p><i class="fas fa-cog ga-lg"></i></p>
-                        <p class="class-timer">15&#58;05&#58;12</p>
-                    </div>
-                    
-                    <div class="class-timelineToday">
-                        <p class="class-today_tit">Setting Value Changed</p>
-                        <p>MICMounter Bond Head <span class="class-tBlue">Bond Force</span> changed</p>
-                        <p>24g &#45; &gt; <span class="class-tBlue">22g</span></p>
-                    </div>
-                </li>
-                <li class="class-timeline12">
-                    <div class="class-timerwrap timer12">
-                        <p><i class="fas fa-wrench fa-lg"></i></p>
-                        <p class="class-timer">20&#58;32&#58;27</p>
-                    </div>
-                    
-                    <div class="class-timelineToday">
-                        <p class="class-today_tit">Lifecycle Monitoring</p>
-                        <p>PKG Cell Assy &#35;1 <span class="class-tBlue">Slit Cutter &#45; Cutting count</span></p>
+                        <p class="class-todayTit">Parts Replacement Cycle Occured</p>
+                        <p><span class="class-tWhite italic">Cgo Align Down Inspection 4 Y2 Align Down Result</span></p>
+                        <p>&#40;WireBondingInspection / Attachment Unload&#41; is out of monitorring level.</p>
+                        <p><span class="class-tRed">1123</span> &gt; 1040</p>
                     </div>
                 </li>
             </ul>
