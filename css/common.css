@@ -22,7 +22,7 @@ html { scrollbar-arrow-color: #efefef;
 
 * {padding:0; margin:0; text-decoration:none; color:#6e7483; list-style:none; box-sizing:border-box;}
 body {font-size:12px; background:#212529; font-family:'nanum gothic', sans-serif;}
-.clearfix:after {display:block; content:''; clear:both;}
+.class-clearfix:after {display:block; content:''; clear:both;}
 .blind {position:absolute; left:-9999px;}
 .center {max-width:1680px; margin:0 auto;}
 
@@ -73,6 +73,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-WBIwrap .class-itemWBI .class-WBIalarmPaging > div > a {color:#FFF; font-size:10px;}
 .class-WBIwrap .class-itemWBI .class-WBIalarmPaging > div > a.act {color:#1e608a;}
 .class-WBIwrap .class-itemWBI .class-WBIalarmPaging > button {width:18px; height:18px; border:none; color:#FFF; vertical-align:top; background:#363d46;}
+#id-itemList02, #id-itemList03{display:none;}
 .class-WBIwrap .class-itemWBI .class-itemList {width:100%; height:207px;}
 .class-WBIwrap .class-itemWBI .class-itemList > li {position:relative; float:left; width:33%; height:68px; padding:10px 0 0 17px; margin-right:0.5%; margin-bottom:0.3%; background:#2e353e; letter-spacing:-0.05em;}
 .class-WBIwrap .class-itemWBI .class-itemList > li:nth-child(3n) {margin-right:0;}
