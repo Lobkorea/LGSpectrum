@@ -23,8 +23,8 @@ html { scrollbar-arrow-color: #efefef;
 * {padding:0; margin:0; text-decoration:none; color:#6e7483; list-style:none; box-sizing:border-box;}
 body {font-size:12px; background:#212529; font-family:'nanum gothic', sans-serif;}
 .class-clearfix:after {display:block; content:''; clear:both;}
-.blind {position:absolute; left:-9999px;}
-.center {max-width:1680px; margin:0 auto;}
+.class-blind {position:absolute; left:-9999px;}
+.class-center {max-width:1680px; margin:0 auto;}
 
 
 /* header */
@@ -115,7 +115,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-alarmNum > .class-numTodayRank .class-countnum {font-size:11px; color:#0d8acc; letter-spacing:-0.06em;}
 .class-alarmNum > .class-numTodayRank .class-history {margin-left:30px;}
 
-#id-container .italic, #id-timeline .italic {font-style:italic; font-size:12px; color:#6e7483;}
+#id-container .class-italic, #id-timeline .class-italic {font-style:italic; font-size:12px; color:#6e7483;}
 
 /* aside */
 #id-timeline {position:absolute; top:0; right:0; width:395px; height:100%;}
