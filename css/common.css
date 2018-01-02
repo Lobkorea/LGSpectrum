@@ -28,7 +28,8 @@ body {font-size:12px; background:#212529; font-family:'nanum gothic', sans-serif
 
 
 /* header */
-#id-header {height:50px; padding:0 5px; margin-bottom:5px; line-height:50px; background:#171717;}
+.class-hdWrap {width:100%; background:#171717;}
+#id-header {height:50px; padding:0 5px; margin-bottom:5px; line-height:50px;}
 #id-title {float:left; margin-top:-5px; margin-right:65px; color:#FFF; font-weight:600;}
 #id-title .class-subtitle {font-size:12px; color:#929292;}
 .class-lineSelect {float:left;}
