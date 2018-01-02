@@ -1,2 +1,2 @@
-# LGSpectrum
-LGSpectrum
+# Spectrum
+Spectrum
