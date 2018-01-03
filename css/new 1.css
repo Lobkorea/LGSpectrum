@@ -1,0 +1,53 @@
+.class-alarmEqList {
+	position:relative;
+	clear:both;
+	margin:72px 0 35px;
+	border-top:1px solid #b2b5ba;
+	padding:10px 0;
+}
+.class-alarmEqList h2 {
+	color:#656d78;
+	font-size:18px;
+	font-weight:600;
+}
+.class-alarmEqList p {
+	color:#656d78;
+	margin:25px 0 20px 0px;
+	font-size:16px;
+}
+.class-alarmEqList p span {
+	font-weight:bold;
+	margin-right:5px;
+}
+.class-alarmEqChart {
+	position:relative;
+	background-color:#f1fbfc;
+	height:130px;
+}
+
+
+.class-popupSPChart {
+	border-top:1px solid #b2b5ba;
+	margin-top:20px;
+	padding-top:25px;
+}
+.class-popupSPChart h2 {
+	color:#656d78;
+	font-weight:600;
+/*add by seonmi01.jin@lgepartner.com/170821*/
+	font-size:18px;
+}
+.class-popupSPChart p {
+	color:#656d78;
+	margin:25px 0 20px 0px;
+	font-size:16px;
+}
+.class-popupSPChart p span {
+	font-weight:bold;
+	margin-right:5px;
+}
+.class-spChartList {
+	position:relative;
+	background-color:#f1fbfc;
+	height:130px;
+}

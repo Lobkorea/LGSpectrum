@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body {
+	background-color:#ecedf2;
+	font-family:LGSmHaL, sans-serif;
+	/* add by seonmi01.jin@lgepartner.com/170822*/
+	background-image: linear-gradient(to left, rgb(91, 90, 89), rgb(73, 72, 71));
+}
+
+#id-wrap {
+	position:relative;
+	width:100%;
+}
+#id-loginWrap {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-250px;
+	margin-left:-450px;
+	width:900px;
+	height:500px;
+	background:#fff url('../img/bar.png') no-repeat left top;;
+}
+.class-form {
+	margin:130px 0 0 90px;
+	padding-top:45px;
+	position:relative;
+	width:365px;
+	border-right:1px solid #ddd;
+	height:255px;
+
+}
+.class-form input {
+	width:270px;
+	height:50px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	background-color:#f7f7f7;
+	border:1px solid #dedede;
+	box-sizing:border-box;
+	margin-bottom:15px;
+	padding-left:20px;
+	text-align:left;
+}
+.class-form .class-loginSm {
+	background-color:#ff6865;
+	border:1px solid #ff6865;
+	color:#fff;
+	font-weight:600;
+	text-align:center;
+}
+.class-logo {
+	position:absolute;
+	bottom:18px;
+	left:18px;
+}
+.class-logo2 {
+	position:absolute;
+	top:235px;
+	left:525px;
+}
+.class-copy {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	font-size:11px;
+}
+.class-idpwCheck {
+	display:none;
+	position:absolute;
+	width:270px;
+	top:10px;
+	left:0px;
+	font-size:12px;
+	text-align:center;
+	color:#ff6865;
+}
+.class-idpwCheck span {
+	font-weight:600;
+}

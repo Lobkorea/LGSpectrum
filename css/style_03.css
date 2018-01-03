@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------
+0. fonts - LGFont
+-------------------------------------------------------------------*/
+@font-face {
+    font-family:'LGSmHaL' ; font-style:normal; font-weight:200;
+    src: url('fonts/LGSmKrL.eot');
+    src: url('fonts/LGSmKrL.eot?#iefix') format('embedded-opentype'),
+    url('fonts/LGSmKrL.woff') format('woff'),
+    url('fonts/LGSmKrL.ttf') format('truetype');
+}
+@font-face {
+    font-family:'LGSmHaR'; font-style:normal; font-weight:400;
+    src: url('fonts/LGSmKrR.eot');
+    src: url('fonts/LGSmKrR.eot?#iefix') format('embedded-opentype'),
+    url('fonts/LGSmKrR.woff') format('woff'),
+    url('fonts/LGSmHaR.ttf') format('truetype');
+}
+@font-face {
+    font-family:'LGSmHaB'; font-style:normal; font-weight:600;
+    src: url('fonts/LGSmKrB.eot');
+    src: url('fonts/LGSmKrB.eot?#iefix') format('embedded-opentype'),
+    url('fonts/LGSmKrB.woff') format('woff'),
+    url('fonts/LGSmHaB.ttf') format('truetype');
+}
+@font-face {
+    font-family:'LGSmHaSB'; font-style:normal;
+    src: url('fonts/LGSmKrSB.eot');
+    src: url('fonts/LGSmKrSB.eot?#iefix') format('embedded-opentype'),
+    url('fonts/LGSmKrSB.woff') format('woff'),
+    url('fonts/LGSmHaSB.ttf') format('truetype');
+}
+/*------------------------------------------------------------------
+1. bace
+-------------------------------------------------------------------*/
+body {
+	background:#eeeeee;
+	color:#404E67 !important; /*add jin*/
+	font-family:LGSmHaL, sans-serif;
+	font-size:14px;
+}
+a, a:hover {
+	color:#404E67; /*add jin*/
+	text-decoration:none;
+}
+/*------------------------------------------------------------------
+2. wrap
+-------------------------------------------------------------------*/
+#id-wrap {
+	position:relative;
+	width:100%;
+}
+/*------------------------------------------------------------------
+3. header
+-------------------------------------------------------------------*/
+#id-headerWrap {
+	min-height:46px;/*add jin*/
+	min-width:1280px;
+	position:fixed;
+	z-index:9999;
+	top:0;
+	width:100%;
+	background-color: #222; /*add jin*/
+}
+#id-headerWrap .class-headerLU {
+	position:relative;
+}
+#id-headerWrap h1 {
+	position:relative;
+	/*background-color:#ca97f6; remove by seonmi01.jin@lgepartner.com/170822*/
+	background-image: linear-gradient(to left, rgb(91, 90, 89), rgb(73, 72, 71));/*add gray mode */
+	background-image:url('../img/title_bar_2.jpg');
+	background-repeat:no-repeat;
+	background-position:top right;	
+	height:46px;	/*add jin*/
+}
+#id-headerWrap h1 a {
+	display:inline-block;
+	margin-top:8px;
+	margin-left:35px;
+}
+.class-user {
+	position:absolute;
+	top:10px; /*add jin*/
+	right:0px;
+	line-height: 24px; /*add jin*/
+}
+.class-user li {
+	float:left;
+	margin-right:35px;
+	padding-left:33px;
+	cursor:pointer;
+}
+/* 상단 네비게이션 add jin*/
+.class-navi {
+	position:absolute;
+	float: left;
+	top:10px;
+	left:320px;
+	line-height: 24px; 	
+	font-size:16px;
+	color:#fff;
+}
+.class-userName {
+	background:url('../img/user.png') no-repeat left center;
+	font-size:16px; /*add jin*/
+	color:#fff;
+}
+.class-logout {
+	background:url('../img/logout_2.png') no-repeat left center;
+	font-size:16px; /*add jin*/
+	color:#fff;
+}
+.class-navSave {
+	display:none;
+}
+#id-headerWrap nav {
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:46px;/*add jin*/
+	box-sizing:border-box;
+	padding:3px 0;/*add jin*/
+	background-color:#fff;
+}
+#id-headerWrap nav li {
+	float:left;
+	width:76px;
+	height:41px; /*add jin*/
+	padding-top:7px; /*add jin*/
+	box-sizing:border-box;
+	border-right:1px solid #c6c6c6;
+	text-align:center;
+	vertical-align:baseline;
+	cursor:pointer;
+}
+#id-headerWrap nav li span {
+	display:inline-block;
+	width:100%;
+	height:38px;
+	margin-top:-8px;
+	padding-top:8px;
+}
+#id-headerWrap nav li:last-child {
+	border-right:0;
+}
+#id-headerWrap .class-sideBt {
+	position:absolute;
+	top:100px;
+	right:0px;
+}
+#id-headerWrap .class-sideBt > li {
+	position:relative;
+	height:40px; /*add jin */
+	margin-bottom:10px;
+}
+#id-headerWrap .class-bookmark {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:50px; /*add jin */
+	height:40px; /*add jin */	
+	/*background:linear-gradient(#ff9dba,#ffbb98); remove by seonmi01.jin@lgepartner.com/170821*/
+	background-image: linear-gradient(to left, rgb(91, 90, 89), rgb(73, 72, 71));/* add gray mode */
+	border-radius:3px 0 0 3px; /*add jin */
+	-webkit-border-radius:3px 0 0 3px; /*add jin */
+	-moz-border-radius:3px 0 0 3px; /*add jin */
+	cursor:pointer;
+}
+.class-bookmark input[type=checkbox] {
+	display:none;
+}
+.class-bookmark input[type=checkbox] + label {
+	display:inline-block;
+	width:50px; /*add jin */
+	height:40px; /*add jin */
+	text-indent:-9999px;
+	background:url('../img/icon_bookmark.png') no-repeat center;
+}
+.class-bookmark input[type=checkbox]:checked + label {
+	background:url('../img/icon_bookmark_2.png') no-repeat center;
+}
+#id-headerWrap .class-bookmark img {
+	margin:15px 0 0 20px;
+}
+.class-sideLang {
+	min-width:50px; /*add jin */
+	height:40px; /*add jin */
+	background-color:#fff;
+	border-radius:3px 0 0 3px; /*add jin */
+	-webkit-border-radius:3px 0 0 3px; /*add jin */
+	-moz-border-radius:3px 0 0 3px; /*add jin */
+}
+.class-sideLang li {
+	display:none;
+	float:left;
+	width:44px; /*add jin */
+	margin-top:1px; /*add jin */
+	line-height:38px;
+	text-align:right;
+	padding-right:6px;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+	background-position:8px center; /*add jin */
+	background-repeat:no-repeat;
+}
+.class-sideLang li.class-sideLangli {
+	display:block;
+	border-left:1px solid #a7b3c1;
+}
+.class-sideLang li.class-sideLangli:nth-of-type(1) {
+	border-left:0px;
+}
+.class-sideLang li.class-on {
+	display:block;
+}
+.class-sideLang li:hover {
+	color:#ffb294;
+}
+.class-sideLang .class-ko {
+	background-image:url('../img/lang_ko_i.png');
+}
+.class-sideLang .class-en {
+	background-image:url('../img/lang_en_i.png');
+}
+.class-sideLang .class-ko:hover {
+	background-image:url('../img/lang_ko_i_hover.png');
+}
+.class-sideLang .class-en:hover {
+	background-image:url('../img/lang_en_i_hover.png');
+}
+/*------------------------------------------------------------------
+4. content
+-------------------------------------------------------------------*/
+#id-contentWrap {
+	margin:55px auto 120px; /*add jin*/
+	width:1280px;
+	position:relative;
+}
+/* 가변 데이터 */
+.class-ellipsis {
+	display:inline-block;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
