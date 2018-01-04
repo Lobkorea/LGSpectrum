@@ -35,7 +35,7 @@ body {font-size:12px; background:#212529; font-family:'lgsmkrr', sans-serif;}
 /* header */
 .class-hdWrap {width:100%; background:#171717;}
 .class-header {height:50px; padding:0 5px; margin-bottom:5px; line-height:50px;}
-.class-title {float:left; margin-top:-5px; margin-right:65px; color:#FFF; font-weight:600;}
+.class-title {float:left; margin-top:-5px; margin-right:65px; color:#FFF; font-weight:600;    line-height: 60px;}
 .class-title .class-subtitle {font-size:12px; color:#929292;}
 .class-lineSelect {float:left;}
 .class-lineSelect > div {float:left; margin-right:40px;}
@@ -51,13 +51,13 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 /* container */
 .class-container {position:relative;padding-right:400px;}
 .class-container .class-board {width:100%;}
-.class-container .class-alarm {margin-bottom:5px;}
+.class-container .class-alarm {margin-bottom:10px;margin-top:10px;}
 .class-container .class-alarm > div {float:left; width:33%; height:60px; padding-top:12px; margin-left:0.5%; background:#282d36;}
 .class-container .class-alarm > div:first-child {margin-left:0%;}
 .class-container .class-alarm > div > p {font-size:18px; font-weight:800; text-align:center; color:#FFF;}
 .class-container .class-alarm > div > p.class-alarmTxt {color:#999; font-size:inherit; font-weight:400;}
 
-.class-WBIwrap {margin-bottom:5px; background:#282d36;}
+.class-WBIwrap {margin-bottom:10px; background:#282d36;}
 .class-WBIwrap .class-WBIalarmBanner {position:relative; clear:both; background:#282d36; margin-bottom:5px;}
 .class-WBIwrap .class-WBIalarmBanner .class-WBIalarmInner {width:100%; height:340px; background:url(../img/images/sim_img.jpg) no-repeat;}
 
@@ -132,7 +132,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-timeline .class-timeTit .class-timelineHistory ul li {float:left; margin-right:5px; cursor:pointer;}
 .class-timeline .class-timeTit .class-timelineHistory ul li:last-child {float:left; margin-right:0;}
 .class-timeline .class-timeTit .class-timelineHistory ul li span:first-child {display:inline-block; width:15px; height:15px;}
-.class-timeline .class-timelineInner {height:962px; overflow:auto; padding:0 15px; background:#2e353e;}
+.class-timeline .class-timelineInner {height:976px; overflow:auto; padding:0 15px; background:#2e353e;}
 .class-timeline .class-timelineInner li {padding:15px 0; border-bottom:1px dashed #4c545c;}
 .class-timeline .class-timelineInner li:after {content:''; clear:both; display:block;}
 .class-timeline .class-timelineInner li > div {float:left;}
@@ -150,7 +150,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
     .class-container .class-board {margin-bottom:5px;}
     .class-timeline {position:static; width:100%;}
     .class-timeline .class-timelineInner {height:100%;}
-    .class-timeline .class-timelineInner li {float:left; width:50%; height:95px;}
+    .class-timeline .class-timelineInner li {/*float:left;*/ width:100%; height:95px;}
 	.class-timeline .class-timelineInner li .class-timelineToday {width:500px;}
 }
 
