@@ -52,9 +52,10 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-container {position:relative;padding-right:400px;}
 .class-container .class-board {width:100%;}
 .class-container .class-alarm {margin-bottom:10px;margin-top:10px;}
-.class-container .class-alarm > div {float:left; width:33%; height:60px; padding-top:12px; margin-left:0.5%; background:#282d36;}
+.class-container .class-alarm > div {float:left; width:33%; height:60px; padding-top:21px; margin-left:0.5%; background:#282d36;}
 .class-container .class-alarm > div:first-child {margin-left:0%;}
 .class-container .class-alarm > div > p {font-size:18px; font-weight:800; text-align:center; color:#FFF;}
+.class-container .class-alarm > div > p:first-child {margin-bottom:3px;}
 .class-container .class-alarm > div > p.class-alarmTxt {color:#999; font-size:inherit; font-weight:400;}
 
 .class-WBIwrap {margin-bottom:10px; background:#282d36;}
@@ -71,6 +72,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-WBIwrap .class-alarmWBI .class-alarmList {width:100%; height:207px; padding-top:13px; background:#2e353e;}
 .class-WBIwrap .class-alarmWBI .class-alarmList > li {float:left; width:50%; padding-left:27px; margin:8px 0; letter-spacing:-0.05em;}
 .class-WBIwrap .class-alarmWBI .class-alarmList > li > .class-listTit {color:#fff; font-size:14px; font-weight:600; margin-bottom:2px;}
+.class-WBIwrap .class-alarmWBI .class-alarmList > li > .class-listTit span {margin-left:10px;}
 .class-WBIwrap .class-alarmWBI .class-alarmList > li > p {color:#707070;}
 
 .class-WBIwrap .class-itemWBI {position:relative;}
@@ -81,7 +83,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-WBIwrap .class-itemWBI .class-WBIalarmPaging > button {width:18px; height:18px; border:none; color:#FFF; vertical-align:top; background:#363d46;}
 .class-itemList02, .class-itemList03{display:none;}
 .class-WBIwrap .class-itemWBI .class-itemList {width:100%; height:207px;}
-.class-WBIwrap .class-itemWBI .class-itemList > li {position:relative; float:left; width:33%; height:68px; padding:10px 0 0 17px; margin-right:0.5%; margin-bottom:0.3%; background:#2e353e; letter-spacing:-0.05em;}
+.class-WBIwrap .class-itemWBI .class-itemList > li {position:relative; float:left; width:33%; height:68px; padding:10px 17px 0 17px; margin-right:0.5%; margin-bottom:0.3%; background:#2e353e; letter-spacing:-0.05em;}
 .class-WBIwrap .class-itemWBI .class-itemList > li:nth-child(3n) {margin-right:0;}
 .class-WBIwrap .class-itemWBI .class-itemList > li:nth-child(7) {margin-bottom:0;}
 .class-WBIwrap .class-itemWBI .class-itemList > li:nth-child(8) {margin-bottom:0;}
@@ -93,32 +95,35 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-WBIwrap .class-itemWBI .class-itemList > li .class-itemCountR span {color:#d9514d;}
 .class-WBIwrap .class-itemWBI .class-itemList > li .class-itemCountY span {color:#f0ac4b;}
 
-.class-alarmNum  .class-numDate, .class-alarmNum  .class-numMachine, .class-alarmNum  .class-numTodayRank {float:left; width:33%; margin-left:0.5%;}
-.class-alarmNum   h3 {height:30px; line-height:30px; color:#b4b6bd; padding-left:15px; background-color:#282d36; border-bottom:1px solid #1d2127;}
-.class-alarmNum  .class-numDate {margin-left:0;}
-.class-alarmNum  .class-numDate .class-dateGraph {width:100%; height:165px; background:url(../img/images/date_graph.jpg) no-repeat center; background-color:#2e353e;}
-.class-alarmNum  .class-numDate  ul {height:148px; padding:44px 0 32px 0; background:#363d46;}
-.class-alarmNum  .class-numDate  ul  li {position:relative; float:left; width:33.33333%; height:100%; text-align:center; padding-top:8px; border-right:1px solid #98a6ad;}
-.class-alarmNum  .class-numDate  ul  li:last-child {border-right:none;}
-.class-alarmNum  .class-numDate  ul  li  p:last-child {position:absolute; bottom:7px; left:50%; margin-left:-8px; font-size:14px; font-weight:400;}
+.class-alarmNum .class-numDate, .class-alarmNum .class-numMachine, .class-alarmNum .class-numTodayRank {float:left; width:33%; margin-left:0.5%;}
+.class-alarmNum h3 {height:30px; line-height:30px; color:#b4b6bd; padding-left:15px; background-color:#282d36; border-bottom:1px solid #1d2127;}
+.class-alarmNum .class-numDate {margin-left:0;}
+.class-alarmNum .class-numDate .class-dateGraph {width:100%; height:165px; background:url(../img/images/date_graph.jpg) no-repeat center; background-color:#2e353e;}
+.class-alarmNum .class-numDate ul {height:148px; padding:44px 0 32px 0; background:#363d46;}
+.class-alarmNum .class-numDate ul li {position:relative; float:left; width:33.33333%; height:100%; text-align:center; padding-top:8px; border-right:1px solid #98a6ad;}
+.class-alarmNum .class-numDate ul li:last-child {border-right:none;}
+.class-alarmNum .class-numDate ul li p {color:#98a6ad;}
+.class-alarmNum .class-numDate ul li p:last-child {position:absolute; bottom:7px; left:50%; margin-left:-8px; font-size:14px; font-weight:600;}
 
-.class-alarmNum  .class-numMachine .class-machineGraph {width:100%; height:165px; background:url(../img/images/machine_graph.jpg) no-repeat center; background-color:#2e353e;}
-.class-alarmNum  .class-numMachine ul li {position:relative; height:39px; line-height:39px; padding-left:18px; background:#393f48;}
-.class-alarmNum  .class-numMachine ul li:nth-child(3) {height:40px; border-top:1px solid #4c545c; border-bottom:1px solid #4c545c;}
-.class-alarmNum  .class-numMachine ul li.class-numTit {height:30px; line-height:30px; background:#434951;}
-.class-alarmNum  .class-numMachine ul li.class-numTit p { color:#FFF; font-weight:bold;}
+.class-alarmNum .class-numMachine .class-machineGraph {width:100%; height:165px; background:url(../img/images/machine_graph.jpg) no-repeat center; background-color:#2e353e;}
+.class-alarmNum .class-numMachine ul li {position:relative; height:39px; line-height:39px; padding-left:18px; background:#393f48;}
+.class-alarmNum .class-numMachine ul li:nth-child(3) {height:40px; border-top:1px solid #4c545c; border-bottom:1px solid #4c545c;}
+.class-alarmNum .class-numMachine ul li p {color:#98a6ad;}
+.class-alarmNum .class-numMachine ul li.class-numTit {height:30px; line-height:30px; background:#434951;}
+.class-alarmNum .class-numMachine ul li.class-numTit p { color:#FFF; font-weight:bold;}
 .class-sl, .class-em, .class-slM {position:absolute; top:0; right:38px; color:#FFF; font-weight:600;}
 
-.class-alarmNum  .class-numTodayRank ul {height:313px; padding:0 20px; background:#2e353e;}
-.class-alarmNum  .class-numTodayRank ul li {height:62.5px; padding-top:10px; border-bottom:1px dashed #4c545c;}
-.class-alarmNum  .class-numTodayRank ul li:last-child {border-bottom:none;}
-.class-alarmNum  .class-numTodayRank ul li  div {float:left;}
-.class-alarmNum  .class-numTodayRank ul li  div  p {font-size:11px; color:#707070;}
-.class-alarmNum  .class-numTodayRank .class-rankNum {margin-right:20px;}
-.class-alarmNum  .class-numTodayRank .class-rankNum p {color:#FFF; font-weight:bold; line-height:48px;}
-.class-alarmNum  .class-numTodayRank .class-codename {font-size:14px; color:#FFF; font-weight:600; margin-bottom:8px;}
-.class-alarmNum  .class-numTodayRank .class-countnum {font-size:11px; color:#0d8acc; letter-spacing:-0.06em;}
-.class-alarmNum  .class-numTodayRank .class-history {margin-left:30px;}
+.class-alarmNum .class-numTodayRank ul {height:313px; padding:0 20px; background:#2e353e;}
+.class-alarmNum .class-numTodayRank ul li {height:62.5px; padding-top:13px; border-bottom:1px dashed #4c545c;}
+.class-alarmNum .class-numTodayRank ul li:last-child {border-bottom:none;}
+.class-alarmNum .class-numTodayRank ul li div {float:left;}
+.class-alarmNum .class-numTodayRank ul li div p {font-size:11px; color:#707070;}
+.class-alarmNum .class-numTodayRank ul li div p.class-italic {color:#6e7483;}
+.class-alarmNum .class-numTodayRank .class-rankNum {margin-right:20px;}
+.class-alarmNum .class-numTodayRank .class-rankNum p {color:#FFF; font-weight:bold; line-height:35px;}
+.class-alarmNum .class-numTodayRank .class-codename {font-size:14px; color:#FFF; font-weight:600; margin-bottom:8px;}
+.class-alarmNum .class-numTodayRank .class-countnum {font-size:11px; color:#0d8acc; letter-spacing:-0.06em;}
+.class-alarmNum .class-numTodayRank .class-history {margin-left:30px;}
 
 .class-container .class-italic, .class-timeline .class-italic {font-style:italic; font-size:12px; color:#6e7483;}
 
@@ -132,12 +137,16 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-timeline .class-timeTit .class-timelineHistory ul li {float:left; margin-right:5px; cursor:pointer;}
 .class-timeline .class-timeTit .class-timelineHistory ul li:last-child {float:left; margin-right:0;}
 .class-timeline .class-timeTit .class-timelineHistory ul li span:first-child {display:inline-block; width:15px; height:15px;}
-.class-timeline .class-timelineInner {height:976px; overflow:auto; padding:0 15px; background:#2e353e;}
+.class-timeline .class-timeTit .class-timelineHistory ul li span i{color:#ffffff;}
+.class-timeline .class-timeTit .class-timelineHistory ul .active span i{color:#6e7483}
+.class-timeline .class-timelineInner {height:977px; overflow:auto; padding:0 15px; background:#2e353e;}
+.class-timeline .class-timelineInner ul .class-off{display:none;}
 .class-timeline .class-timelineInner li {padding:15px 0; border-bottom:1px dashed #4c545c;}
 .class-timeline .class-timelineInner li:after {content:''; clear:both; display:block;}
 .class-timeline .class-timelineInner li > div {float:left;}
 .class-timeline .class-timelineInner li .class-timerwrap {width:70px; text-align:center;}
 .class-timeline .class-timelineInner li .class-timerwrap p {color:#666973; margin-bottom:5px;}
+.class-timeline .class-timelineInner li .class-timerwrap p i {color:#ffffff;}
 .class-timeline .class-timelineInner li .class-timelineToday {width:260px; letter-spacing:-0.05em;}
 .class-timeline .class-timelineInner li .class-timelineToday .class-todayTit {color:#FFF; font-size:14px; font-weight:600; margin-bottom:5px;}
 .class-timeline .class-timelineInner li .class-timelineToday .class-tRed {color:#d14f4c;}
