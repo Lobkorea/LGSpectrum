@@ -34,7 +34,7 @@ body {font-size:12px; background:#212529; font-family:'lgsmkrr', sans-serif;}
 
 /* header */
 .class-hdWrap {width:100%; background:#171717;}
-.class-header {height:50px; padding:0 5px; margin-bottom:5px; line-height:50px;}
+.class-header {height:50px; /*padding:0 5px;*/ padding-left:15px; padding-right:15px; margin-bottom:5px; line-height:50px;}
 .class-title {float:left; margin-top:-5px; margin-right:65px; color:#FFF; font-weight:600;    line-height: 60px;}
 .class-title .class-subtitle {font-size:12px; color:#929292;}
 .class-lineSelect {float:left;}
@@ -138,7 +138,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-timeline .class-timeTit .class-timelineHistory ul li:last-child {float:left; margin-right:0;}
 .class-timeline .class-timeTit .class-timelineHistory ul li span:first-child {display:inline-block; width:15px; height:15px;}
 .class-timeline .class-timeTit .class-timelineHistory ul li span i{color:#ffffff;}
-.class-timeline .class-timeTit .class-timelineHistory ul .active span i{color:#6e7483}
+.class-timeline .class-timeTit .class-timelineHistory ul .class-active span i{color:#6e7483}
 .class-timeline .class-timelineInner {height:977px; overflow:auto; padding:0 15px; background:#2e353e;}
 .class-timeline .class-timelineInner ul .class-off{display:none;}
 .class-timeline .class-timelineInner li {padding:15px 0; border-bottom:1px dashed #4c545c;}
@@ -146,7 +146,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-timeline .class-timelineInner li > div {float:left;}
 .class-timeline .class-timelineInner li .class-timerwrap {width:70px; text-align:center;}
 .class-timeline .class-timelineInner li .class-timerwrap p {color:#666973; margin-bottom:5px;}
-.class-timeline .class-timelineInner li .class-timerwrap p i {color:#ffffff;}
+.class-timeline .class-timelineInner li .class-timerwrap p i {color:#ffffff; font-size:14px;}
 .class-timeline .class-timelineInner li .class-timelineToday {width:260px; letter-spacing:-0.05em;}
 .class-timeline .class-timelineInner li .class-timelineToday .class-todayTit {color:#FFF; font-size:14px; font-weight:600; margin-bottom:5px;}
 .class-timeline .class-timelineInner li .class-timelineToday .class-tRed {color:#d14f4c;}
