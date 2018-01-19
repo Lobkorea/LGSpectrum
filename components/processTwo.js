@@ -32,8 +32,8 @@ function ExampleCompController() {
 }
 
 /* 컴포넌트 선언 */
-angular.module('exampleApp').component('alarm', {
-    templateUrl: 'components/alarm.html',
+angular.module('exampleApp').component('processTwo', {
+    templateUrl: 'components/processTwo.html',
     controller: ExampleCompController,
     bindings: {
         exampleSource: '<'

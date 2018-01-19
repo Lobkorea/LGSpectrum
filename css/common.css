@@ -52,10 +52,13 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-container {position:relative;padding-right:400px;}
 .class-container .class-board {width:100%;}
 .class-container .class-alarm {margin-bottom:10px;margin-top:10px;}
-.class-container .class-alarm > div {float:left; width:33%; height:60px; padding-top:21px; margin-left:0.5%; background:#282d36;}
+.class-container .class-alarm > div {float:left; height:60px; padding-top:21px; margin-left:0.5%; background:#282d36;}
+.class-container .class-alarm.class-type1 > div {width:49.7%;}
+.class-container .class-alarm.class-type2 > div {width:33%;}
 .class-container .class-alarm > div:first-child {margin-left:0%;}
 .class-container .class-alarm > div > p {font-size:18px; font-weight:800; text-align:center; color:#FFF;}
 .class-container .class-alarm > div > p:first-child {margin-bottom:3px;}
+.class-container .class-alarm > div > p.class-alarmTit > span {color:#fff; margin:5px;}
 .class-container .class-alarm > div > p.class-alarmTxt {color:#999; font-size:inherit; font-weight:400;}
 
 .class-WBIwrap {margin-bottom:10px; background:#282d36;}
