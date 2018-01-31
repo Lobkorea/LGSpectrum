@@ -85,7 +85,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-WBIwrap .class-itemWBI .class-WBIalarmPaging > div > a.act {color:#1e608a;}
 .class-WBIwrap .class-itemWBI .class-WBIalarmPaging > button {width:18px; height:18px; border:none; color:#FFF; vertical-align:top; background:#363d46;}
 .class-itemList02, .class-itemList03{display:none;}
-.class-WBIwrap .class-itemWBI .class-itemList {width:100%; height:207px;}
+.class-WBIwrap .class-itemWBI .class-itemList {width:100%; height:207px; background:#393f48;}
 .class-WBIwrap .class-itemWBI .class-itemList > li {position:relative; float:left; width:33%; height:68px; padding:10px 17px 0 17px; margin-right:0.5%; margin-bottom:0.3%; background:#2e353e; letter-spacing:-0.05em;}
 .class-WBIwrap .class-itemWBI .class-itemList > li:nth-child(3n) {margin-right:0;}
 .class-WBIwrap .class-itemWBI .class-itemList > li:nth-child(7) {margin-bottom:0;}
@@ -109,11 +109,10 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-alarmNum .class-numDate ul li p:last-child {position:absolute; bottom:7px; left:50%; margin-left:-8px; font-size:14px; font-weight:600;}
 
 .class-alarmNum .class-numMachine .class-machineGraph {width:100%; height:165px; background:url(../img/images/machine_graph.jpg) no-repeat center; background-color:#2e353e;}
+.class-alarmNum .class-numMachine .class-numTit {height:30px; line-height:30px; padding-left:20px; background:#434951; color:#FFF; font-weight:bold;}
 .class-alarmNum .class-numMachine ul li {position:relative; height:39px; line-height:39px; padding-left:18px; background:#393f48;}
 .class-alarmNum .class-numMachine ul li:nth-child(3) {height:40px; border-top:1px solid #4c545c; border-bottom:1px solid #4c545c;}
 .class-alarmNum .class-numMachine ul li p {color:#98a6ad;}
-.class-alarmNum .class-numMachine ul li.class-numTit {height:30px; line-height:30px; background:#434951;}
-.class-alarmNum .class-numMachine ul li.class-numTit p { color:#FFF; font-weight:bold;}
 .class-sl, .class-em, .class-slM {position:absolute; top:0; right:38px; color:#FFF; font-weight:600;}
 
 .class-alarmNum .class-numTodayRank ul {height:313px; padding:0 20px; background:#2e353e;}
@@ -156,6 +155,32 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-timeline .class-timelineInner li .class-timelineToday .class-tBlue {color:#00a1f2;}
 .class-timeline .class-timelineInner li .class-timelineToday .class-tWhite {color:#c1c1c1;}
 
+/* no alarms */
+.class-alarmWBInone, .class-itemWBInone {width:100%; height:207px; padding-top:74px; text-align:center; background:#2e353e;}
+.class-noAicon i {font-size:40px; margin-bottom:15px;}
+.class-noAlarmTxt {font-size:14px;}
+.class-itemWBInone {background:#393f48;}
+.class-itemWBInone .class-noAgraph {position:relative; height:40px; width:120px; margin:0 auto 15px; line-height:40px;}
+.class-itemWBInone .class-noAgraph span {display:inline-block; width:22px; height:2px; margin-left:-6px; background:#656c77;}
+.class-itemWBInone .class-noAgraph span:nth-child(1), .class-itemWBInone .class-noAgraph span:nth-child(3), .class-itemWBInone .class-noAgraph span:nth-child(5) {animation:graph01 2s ease-in-out infinite;}
+.class-itemWBInone .class-noAgraph span:nth-child(2n) {animation:graph02 2s ease-in-out infinite;}
+.class-MachineAnone {width:100%; height:118px; padding-top:27px; background:#393f48; text-align:center;}
+.class-todayRnone {width:100%; height:313px; padding-top:120px; text-align:center; background:#2e353e;}
+
+
+
+
+@keyframes graph01 {
+    0% {transform:rotate(-30deg);}
+    50% {transform:rotate(30deg);}
+    100% {transform:rotate(-30deg);}
+}
+
+@keyframes graph02 {
+    0% {transform:rotate(30deg);}
+    50% {transform:rotate(-30deg);}
+    100% {transform:rotate(30deg);}
+}
 
 @media all and (min-width:1280px) and (max-width:1679px) {
     .class-container {padding-right:0;}

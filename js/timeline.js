@@ -41,6 +41,3 @@ $(function() {
     });
 });
 
-$('document').ready(function(){
-	
-});
