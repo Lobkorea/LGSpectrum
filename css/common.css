@@ -160,7 +160,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-noAicon i {font-size:40px; margin-bottom:15px;}
 .class-noAlarmTxt {font-size:14px;}
 .class-itemWBInone {background:#393f48;}
-.class-itemWBInone .class-noAgraph {position:relative; height:40px; width:120px; margin:0 auto 15px; line-height:40px;}
+.class-itemWBInone .class-noAgraph {position: relative;height: 40px;width: 125px;margin: 0 auto 15px;line-height: 35px;padding-left: 5px;border-top: 1px solid #6e7483;border-bottom: 1px solid #6e7483;}
 .class-itemWBInone .class-noAgraph span {display:inline-block; width:22px; height:2px; margin-left:-6px; background:#656c77;}
 .class-itemWBInone .class-noAgraph span:nth-child(1), .class-itemWBInone .class-noAgraph span:nth-child(3), .class-itemWBInone .class-noAgraph span:nth-child(5) {animation:graph01 2s ease-in-out infinite;}
 .class-itemWBInone .class-noAgraph span:nth-child(2n) {animation:graph02 2s ease-in-out infinite;}
