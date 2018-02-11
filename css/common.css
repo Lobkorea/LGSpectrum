@@ -111,7 +111,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-alarmNum .class-numMachine .class-machineGraph {width:100%; height:165px; background:url(../img/images/machine_graph.jpg) no-repeat center; background-color:#2e353e;}
 .class-alarmNum .class-numMachine .class-numTit {height:30px; line-height:30px; padding-left:20px; background:#434951; color:#FFF; font-weight:bold;}
 .class-alarmNum .class-numMachine ul li {position:relative; height:39px; line-height:39px; padding-left:18px; background:#393f48;}
-.class-alarmNum .class-numMachine ul li:nth-child(3) {height:40px; border-top:1px solid #4c545c; border-bottom:1px solid #4c545c;}
+.class-alarmNum .class-numMachine ul li:nth-child(2) {height:40px; border-top:1px solid #4c545c; border-bottom:1px solid #4c545c;}
 .class-alarmNum .class-numMachine ul li p {color:#98a6ad;}
 .class-sl, .class-em, .class-slM {position:absolute; top:0; right:38px; color:#FFF; font-weight:600;}
 
