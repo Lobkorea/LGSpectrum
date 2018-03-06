@@ -63,8 +63,10 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 
 .class-WBIwrap {margin-bottom:10px; background:#282d36;}
 .class-WBIwrap .class-WBIalarmBanner {position:relative; clear:both; background:#282d36; margin-bottom:5px;}
-.class-WBIwrap .class-WBIalarmBanner .class-WBIalarmInner {width:100%; height:340px; background:url(../img/images/sim_img.jpg) no-repeat;}
-
+.class-WBIwrap .class-WBIalarmBanner .class-WBIalarmInner {width:100%; height:340px;}
+.class-WBIwrap .class-WBIalarmBanner .class-WBIalarmInner .class-eqImgWrap {position:absolute; top:50%; left:0; margin-top:-102px;}
+/* background:url(../img/images/sim_img.jpg) no-repeat;*/
+.class-WBIwrap .class-WBIalarmInner .class-eqImgWrap .class-text {color:#fff; font-weight:400;}
 .class-WBIwrap .class-alarmWBI {float:left; width:49.5%; margin-right:1%;}
 .class-WBIwrap .class-itemWBI {float:left; width:49.5%;}
 .class-WBIwrap .class-WBItitle {height:30px; line-height:30px; padding-left:15px;}
@@ -130,7 +132,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-container .class-italic, .class-timeline .class-italic {font-style:italic; font-size:12px; color:#6e7483;}
 
 /* aside */
-.class-timeline {position:absolute; top:0; right:0; width:395px; height:100%;}
+.class-timeline {position:absolute; top:0; right:0; width:395px; height:100%; background:#2e353e;}
 .class-timeline p {color:#707070;}
 .class-timeline .class-timeTit {width:100%; height:30px; line-height:30px; background:#282d36; border-bottom:1px solid #1d2127;}
 .class-timeline .class-timeTit > h3 {float:left; padding-left:20px; font-size:12px; font-weight:normal; color:#b4b6bd; cursor:pointer;}
@@ -141,6 +143,10 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-timeline .class-timeTit .class-timelineHistory ul li span:first-child {display:inline-block; width:15px; height:15px;}
 .class-timeline .class-timeTit .class-timelineHistory ul li span i{color:#ffffff;}
 .class-timeline .class-timeTit .class-timelineHistory ul .class-active span i{color:#6e7483}
+
+.class-timeline .class-NoneAwrap {position:relative; min-height:350px;}
+.class-timeline .class-timelineAnone {position:absolute; top:50%; margin-top:-35px; width:100%; text-align:center;}
+
 .class-timeline .class-timelineInner {height:977px; overflow:auto; padding:0 15px; background:#2e353e;}
 .class-timeline .class-timelineInner ul .class-off{display:none;}
 .class-timeline .class-timelineInner li {padding:15px 0; border-bottom:1px dashed #4c545c;}

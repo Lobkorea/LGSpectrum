@@ -365,7 +365,7 @@
 }
 .class-eqImg1.class-sim {
 	height:203px;
-	background:url('../img/sanken/sim/sim_background.png') no-repeat center; 
+	
 }
 .class-eqImg1.class-sim .class-text0 {
 	top:112px;
@@ -995,7 +995,7 @@
 	height:40px;
 	/*background-color:rgba(65,211,148,0.5);/*add jin */
 	color:#454545;/*add jin */
-	background-color:#eee!important;/*add jin gray03 */
+	/*background-color:#eee!important;*//*add jin gray03 */
 }
 .class-timelineS {
 	float:left;
