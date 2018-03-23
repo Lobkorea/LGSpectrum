@@ -123,38 +123,43 @@
 	height:380px;
 	/* background:url('/spectrum/v1_1/img/eq_1/packaging-toneup.jpg') no-repeat center; */
 }
+.class-eqImg1.class-packaging img {width:auto; height:300px;}
 .class-eqImg1 .class-img1 {
-	top:0px;
-	left:366px;
+	bottom:0px;
+	left:150px;
 }
 .class-eqImg1 .class-img2 {
-	top:35px;
-	left:145px;
+	bottom:1px;
+	left:261px;
 }
 .class-eqImg1 .class-img3 {
-	top:112px;
-	left:0px;
+	bottom:-13px;
+	left:323px;
 }
 .class-eqImg1 .class-img4 {
-	top:123px;
-	left:562px;
+	bottom:-13px;
+	left:407px;
 }
 .class-eqImg1 .class-img5 {
-	top:192px;
-	left:1150px;
+	bottom:-5px;
+	left:490px;
 }
 .class-eqImg1 .class-img6 {
-	top:197px;
-	left:315px;
+	bottom:82px;
+	left:571px;
 }
 .class-eqImg1 .class-img7 {
-	top:203px;
-	left:888px;
+	bottom:-18px;
+	left:631px;
 }
 .class-eqImg1 .class-img8 {
-	top:241px;
-	left:629px;
+	bottom:-7px;
+	left:792px;
 }
+.class-eqImg1 .class-img9 {
+	bottom:-22px;
+	left:943px;
+} /* 180322 add seon */
 
 /* sim gen3 */
 .class-eqImg1.class-simgen3 {
@@ -612,7 +617,7 @@
 /* gen3 170922 add jin*/
 .class-eqImg1.class-gen3 {
 	height:262px;
-	background:url('../img/sanken/gen3/gen3_background.png') no-repeat center; 
+/*	background:url('../img/sanken/gen3/gen3_background.png') no-repeat center; */
 }
 .class-eqImg1.class-gen3 .class-text0 {
 	top:100px;
@@ -691,102 +696,111 @@
 	top:94px;
 	left:151px;
 }
-.class-eqImg1.class-gen3 .class-img2-2 {
+.class-eqImg1.class-gen3 .class-img3 {
 	top:94px;
 	left:180px;
 }
-.class-eqImg1.class-gen3 .class-img3 {
+.class-eqImg1.class-gen3 .class-img4 {
 	top:96px;
 	left:224px;
 }
-.class-eqImg1.class-gen3 .class-img4 {
+.class-eqImg1.class-gen3 .class-img5 {
 	top:94px;
 	left:343px;
 }
-.class-eqImg1.class-gen3 .class-img5 {
+.class-eqImg1.class-gen3 .class-img6 {
 	top:94px;
 	left:453px;
 }
-.class-eqImg1.class-gen3 .class-img5-2 {
+.class-eqImg1.class-gen3 .class-img7 {
 	top:94px;
 	left:482px;
 }
-.class-eqImg1.class-gen3 .class-img6 {
+.class-eqImg1.class-gen3 .class-img8 {
 	top:80px;
 	left:599px;
 }
-.class-eqImg1.class-gen3 .class-img7 {
+.class-eqImg1.class-gen3 .class-img9 {
 	top:83px;
 	left:662px;
 }
-.class-eqImg1.class-gen3 .class-img7-2 {
+.class-eqImg1.class-gen3 .class-img10 {
 	top:120px;
 	left:662px;
 }
-.class-eqImg1.class-gen3 .class-img8 {
+.class-eqImg1.class-gen3 .class-img11 {
 	top:82px;
 	left:704px;
 }
-.class-eqImg1.class-gen3 .class-img8-2 {
+.class-eqImg1.class-gen3 .class-img12 {
 	top:82px;
 	left:738px;
 }
-.class-eqImg1.class-gen3 .class-img8-3 {
+.class-eqImg1.class-gen3 .class-img13 {
 	top:120px;
 	left:738px;
 }
-.class-eqImg1.class-gen3 .class-img8-4{
+.class-eqImg1.class-gen3 .class-img14{
 	top:120px;
 	left:772px;
 }
-.class-eqImg1.class-gen3 .class-img8-5 {
+.class-eqImg1.class-gen3 .class-img15 {
 	top:120px;
 	left:704px;
 }
-.class-eqImg1.class-gen3 .class-img9 {
+.class-eqImg1.class-gen3 .class-img16 {
 	top:75px;
 	left:813px;
 }
-.class-eqImg1.class-gen3 .class-img10 {
+.class-eqImg1.class-gen3 .class-img17 {
 	top:98px;
 	left:867px;
 }
-.class-eqImg1.class-gen3 .class-img11 {
+.class-eqImg1.class-gen3 .class-img18 {
 	top:86px;
 	left:921px;
 }
-.class-eqImg1.class-gen3 .class-img12 {
+.class-eqImg1.class-gen3 .class-img19 {
 	top:86px;
 	left:961px;
 }
-.class-eqImg1.class-gen3 .class-img13 {
+.class-eqImg1.class-gen3 .class-img20 {
 	top:121px;
 	left:600px;
 }
-.class-eqImg1.class-gen3 .class-img13-2 {
+.class-eqImg1.class-gen3 .class-img21 {
 	top:121px;
 	left:620px;
 }
-.class-eqImg1.class-gen3 .class-img14 {
+.class-eqImg1.class-gen3 .class-img22 {
 	top:29px;
 	left:1169px;
 }
-.class-eqImg1.class-gen3 .class-img15 {
+.class-eqImg1.class-gen3 .class-img23 {
 	top:150px;
 	left:1157px;
 }
-.class-eqImg1.class-gen3 .class-img16 {
+.class-eqImg1.class-gen3 .class-img24 {
 	top:200px;
 	left:1163px;
 }
-.class-eqImg1.class-gen3 .class-img16-2 {
+.class-eqImg1.class-gen3 .class-img25 {
 	top:200px;
 	left:1184px;
 }
-.class-eqImg1.class-gen3 .class-img16-3 {
+.class-eqImg1.class-gen3 .class-img26 {
 	top:200px;
 	left:1205px;
 }
+
+/* staking img 180322 add seon */
+.class-eqImgWrap.class-staking {text-align:center;}
+.class-eqImgWrap.class-staking img {width:auto; height:190px; margin-left:-4px;}
+
+/* lami img 180322 add seon */
+.class-lami {padding-top:40px; text-align:center;}
+.class-lami img {height:120px; width:auto; margin-left:-4px;}
+
 
 /* 알람 수 */
 #id-eqAlarms {

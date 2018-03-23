@@ -1,5 +1,38 @@
 <script type="text/javascript" src="js/timeline.js"></script>
 
+<script>
+
+
+var size = $(".class-timelineInner > ul > li").size();
+
+$('.class-timeline01').click(function(){
+
+	$(".class-timelineInner > ul > li").each(function(index){
+		$(this).animate({ 
+			top: "+=103px",
+		},1000,function(){
+				if(Number(size-1) == index){
+					inter();
+				}
+			}
+		);
+	});
+
+	
+
+});
+
+function inter(){
+	$(".class-timelineInner > ul > li:last").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",
+		function(event) {
+			$(".class-timelineInner > ul > li:first").before('<li class="class-timeline01 class-warning class-on">				<div class="class-timerwrap class-timer01">					<p class="class-fontColor"><i class="fa fa-exclamation-triangle" ria-hidden="true"></i></p>					<p class="class-timer">20&#58;32&#58;27</p>				</div>								<div class="class-timelineToday">					<p class="class-todayTit">Alarm Occured</p>					p><span class="class-tBlue">901</span> UnloaderBF_Error&#91;14&#93; Unloader Buffer&#35;1</p>					<p>Stopper Down Sensor &#91;Unloader DVT&#35;1&#93;</p>					<p>it occuered <span class="class-tBlue">3 times</span> today</p>			</div>			</li>');
+	});
+}
+
+
+
+</script>
+
 
 
 <section id="id-timeline" class="class-timeline">
