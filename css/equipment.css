@@ -92,6 +92,7 @@
 	width:100%;
 	position:relative;
 }
+
 .class-eqImgWrap span {
 	position:absolute;
 	cursor:pointer;
@@ -101,9 +102,11 @@
     -o-transform:scale(1);  
     transform:scale(1);
 }
-.class-eqImgWrap span:hover { /*junsung.song*/
+
+/*
+.class-eqImgWrap img:hover { 
 	z-index:300;
-	 -webkit-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
     -moz-transform:scale(1.2);
     -ms-transform:scale(1.2);   
     -o-transform:scale(1.2);
@@ -113,91 +116,55 @@
     -ms-transition:0.5s;
     -o-transition:0.5s;
     transition:0.5s;
-	/*background-color:rgba(255,178,148,0.5);  junsung.song*/
 }
-.class-eqImgWrap span:hover img { /*junsung.song*/
-	opacity:0.9;;
+
+
+.class-eqImgWrap img:hover img {
+	opacity:0.9;
 }
+*/
 /* 장비 이미지 eq_1 */
 .class-eqImg1 {
 	height:380px;
 	/* background:url('/spectrum/v1_1/img/eq_1/packaging-toneup.jpg') no-repeat center; */
 }
+.class-eqImg1.class-packaging img {width:auto; height:300px;}
 .class-eqImg1 .class-img1 {
-	top:0px;
-	left:366px;
+	bottom:0px;
+	left:150px;
 }
 .class-eqImg1 .class-img2 {
-	top:35px;
-	left:145px;
+	bottom:1px;
+	left:261px;
 }
 .class-eqImg1 .class-img3 {
-	top:112px;
-	left:0px;
+	bottom:-13px;
+	left:323px;
 }
 .class-eqImg1 .class-img4 {
-	top:123px;
-	left:562px;
+	bottom:-13px;
+	left:407px;
 }
 .class-eqImg1 .class-img5 {
-	top:192px;
-	left:1150px;
+	bottom:-5px;
+	left:490px;
 }
 .class-eqImg1 .class-img6 {
-	top:197px;
-	left:315px;
+	bottom:82px;
+	left:571px;
 }
 .class-eqImg1 .class-img7 {
-	top:203px;
-	left:888px;
+	bottom:-18px;
+	left:631px;
 }
 .class-eqImg1 .class-img8 {
-	top:241px;
-	left:629px;
+	bottom:-7px;
+	left:792px;
 }
-
-/* 장비 이미지 eq_P1  add jin 171211*/
-.class-eqImgP1 {
-	height:380px;
-	 /*background:url('../img/packaging_new/package.png') no-repeat center; */
-}
-.class-eqImgP1 .class-img01 {
-	top:113px;
-	left:0PX;
-}
-.class-eqImgP1 .class-img02 {
-	top:37px;
-	left:148px;
-}
-.class-eqImgP1 .class-img03 {
-	top:37PX;
-	left:229px;
-}
-.class-eqImgP1 .class-img04 {
-	top:0px;
-	left:342px;
-}
-.class-eqImgP1 .class-img05 {
-	top:0px;
-	left:453px;
-}
-.class-eqImgP1 .class-img06 {
-	top:123px;
-	left:562px;
-}
-.class-eqImgP1 .class-img07 {
-	top:223px;
-	left:628px;
-}
-.class-eqImgP1 .class-img08 {
-	top:203px;
-	left:856px;
-}
-.class-eqImgP1 .class-img09 {
-	top:193px;
-	left:1059px;
-}
-
+.class-eqImg1 .class-img9 {
+	bottom:-22px;
+	left:943px;
+} /* 180322 add seon */
 
 /* sim gen3 */
 .class-eqImg1.class-simgen3 {
@@ -408,7 +375,7 @@
 }
 .class-eqImg1.class-sim {
 	height:203px;
-	background:url('../img/sanken/sim/sim_background.png') no-repeat center; 
+	
 }
 .class-eqImg1.class-sim .class-text0 {
 	top:112px;
@@ -495,167 +462,167 @@
 	top:86px;
 	left:151px;
 }
-.class-eqImg1.class-sim .class-img3-2 {
+.class-eqImg1.class-sim .class-img4 {
 	top:86px;
 	left:180px;
 }
-.class-eqImg1.class-sim .class-img3-3 {
+.class-eqImg1.class-sim .class-img5 {
 	top:86px;
 	left:209px;
 }
-.class-eqImg1.class-sim .class-img4 {
+.class-eqImg1.class-sim .class-img6 {
 	top:123px;
 	left:151px;
 }
-.class-eqImg1.class-sim .class-img4-2 {
+.class-eqImg1.class-sim .class-img7 {
 	top:123px;
 	left:180px;
 }
-.class-eqImg1.class-sim .class-img4-3 {
+.class-eqImg1.class-sim .class-img8 {
 	top:123px;
 	left:209px;
 }
-.class-eqImg1.class-sim .class-img5 {
+.class-eqImg1.class-sim .class-img9 {
 	top:87px;
 	left:235px;
 }
-.class-eqImg1.class-sim .class-img5-2 {
+.class-eqImg1.class-sim .class-img10 {
 	top:119px;
 	left:235px;
 }
 
-.class-eqImg1.class-sim .class-img6 {
+.class-eqImg1.class-sim .class-img11 {
 	top:120px;
 	left:282px;
 }
-.class-eqImg1.class-sim .class-img6-2 {
+.class-eqImg1.class-sim .class-img12 {
 	top:126px;
 	left:402px;
 }
-.class-eqImg1.class-sim .class-img7 {
+.class-eqImg1.class-sim .class-img13 {
 	top:62px;
 	left:498px;
 }
-.class-eqImg1.class-sim .class-img7-2 {
+.class-eqImg1.class-sim .class-img14 {
 	top:62px;
 	left:519px;
 }
-.class-eqImg1.class-sim .class-img7-3 {
+.class-eqImg1.class-sim .class-img15 {
 	top:62px;
 	left:540px;
 }
-.class-eqImg1.class-sim .class-img7-4 {
+.class-eqImg1.class-sim .class-img16 {
 	top:62px;
 	left:561px;
 }
-.class-eqImg1.class-sim .class-img8 {
+.class-eqImg1.class-sim .class-img17 {
 	top:111px;
 	left:478px;
 }
-.class-eqImg1.class-sim .class-img9 {
+.class-eqImg1.class-sim .class-img18 {
 	top:58px;
 	left:645px;
 }
-.class-eqImg1.class-sim .class-img9-2 {
+.class-eqImg1.class-sim .class-img19 {
 	top:58px;
 	left:677px;
 }
-.class-eqImg1.class-sim .class-img9-3 {
+.class-eqImg1.class-sim .class-img20 {
 	top:58px;
 	left:710px;
 }
-.class-eqImg1.class-sim .class-img9-4 {
+.class-eqImg1.class-sim .class-img21 {
 	top:58px;
 	left:742px;
 }
-.class-eqImg1.class-sim .class-img9-5 {
+.class-eqImg1.class-sim .class-img22 {
 	top:58px;
 	left:775px;
 }
-.class-eqImg1.class-sim .class-img9-6 {
+.class-eqImg1.class-sim .class-img23 {
 	top:82px;
 	left:645px;
 }
-.class-eqImg1.class-sim .class-img9-7 {
+.class-eqImg1.class-sim .class-img24 {
 	top:82px;
 	left:677px;
 }
-.class-eqImg1.class-sim .class-img9-8 {
+.class-eqImg1.class-sim .class-img25 {
 	top:82px;
 	left:710px;
 }
-.class-eqImg1.class-sim .class-img9-9 {
+.class-eqImg1.class-sim .class-img26 {
 	top:82px;
 	left:742px;
 }
-.class-eqImg1.class-sim .class-img9-10 {
+.class-eqImg1.class-sim .class-img27 {
 	top:82px;
 	left:775px;
 }
-.class-eqImg1.class-sim .class-img9-11 {
+.class-eqImg1.class-sim .class-img28 {
 	top:123px;
 	left:645px;
 }
-.class-eqImg1.class-sim .class-img9-12 {
+.class-eqImg1.class-sim .class-img29 {
 	top:123px;
 	left:677px;
 }
-.class-eqImg1.class-sim .class-img9-13 {
+.class-eqImg1.class-sim .class-img30 {
 	top:123px;
 	left:710px;
 }
-.class-eqImg1.class-sim .class-img9-14 {
+.class-eqImg1.class-sim .class-img31 {
 	top:123px;
 	left:742px;
 }
-.class-eqImg1.class-sim .class-img10 {
+.class-eqImg1.class-sim .class-img32 {
 	top:68px;
 	left:813px;
 }
-.class-eqImg1.class-sim .class-img11 {
+.class-eqImg1.class-sim .class-img33 {
 	top:80px;
 	left:875px;
 }
-.class-eqImg1.class-sim .class-img12 {
+.class-eqImg1.class-sim .class-img34 {
 	top:74px;
 	left:976px;
 }
-.class-eqImg1.class-sim .class-img12-2 {
+.class-eqImg1.class-sim .class-img35 {
 	top:103px;
 	left:976px;
 }
-.class-eqImg1.class-sim .class-img13 {
+.class-eqImg1.class-sim .class-img36 {
 	top:38px;
 	left:1150px;
 }
-.class-eqImg1.class-sim .class-img14 {
+.class-eqImg1.class-sim .class-img37 {
 	top:93px;
 	left:1162px;
 }
-.class-eqImg1.class-sim .class-img14-2 {
+.class-eqImg1.class-sim .class-img38 {
 	top:93px;
 	left:1183px;
 }
-.class-eqImg1.class-sim .class-img14-3 {
+.class-eqImg1.class-sim .class-img39 {
 	top:93px;
 	left:1204px;
 }
-.class-eqImg1.class-sim .class-img14-4 {
+.class-eqImg1.class-sim .class-img40 {
 	top:93px;
 	left:1225px;
 }
-.class-eqImg1.class-sim .class-img15 {
+.class-eqImg1.class-sim .class-img41 {
 	top:133px;
 	left:1150px;
 }
-.class-eqImg1.class-sim .class-img16 {
+.class-eqImg1.class-sim .class-img42 {
 	top: 125px;
     left: 402px;
 }
 /* gen3 170922 add jin*/
 .class-eqImg1.class-gen3 {
 	height:262px;
-	background:url('../img/sanken/gen3/gen3_background.png') no-repeat center; 
+/*	background:url('../img/sanken/gen3/gen3_background.png') no-repeat center; */
 }
 .class-eqImg1.class-gen3 .class-text0 {
 	top:100px;
@@ -734,102 +701,111 @@
 	top:94px;
 	left:151px;
 }
-.class-eqImg1.class-gen3 .class-img2-2 {
+.class-eqImg1.class-gen3 .class-img3 {
 	top:94px;
 	left:180px;
 }
-.class-eqImg1.class-gen3 .class-img3 {
+.class-eqImg1.class-gen3 .class-img4 {
 	top:96px;
 	left:224px;
 }
-.class-eqImg1.class-gen3 .class-img4 {
+.class-eqImg1.class-gen3 .class-img5 {
 	top:94px;
 	left:343px;
 }
-.class-eqImg1.class-gen3 .class-img5 {
+.class-eqImg1.class-gen3 .class-img6 {
 	top:94px;
 	left:453px;
 }
-.class-eqImg1.class-gen3 .class-img5-2 {
+.class-eqImg1.class-gen3 .class-img7 {
 	top:94px;
 	left:482px;
 }
-.class-eqImg1.class-gen3 .class-img6 {
+.class-eqImg1.class-gen3 .class-img8 {
 	top:80px;
 	left:599px;
 }
-.class-eqImg1.class-gen3 .class-img7 {
+.class-eqImg1.class-gen3 .class-img9 {
 	top:83px;
 	left:662px;
 }
-.class-eqImg1.class-gen3 .class-img7-2 {
+.class-eqImg1.class-gen3 .class-img10 {
 	top:120px;
 	left:662px;
 }
-.class-eqImg1.class-gen3 .class-img8 {
+.class-eqImg1.class-gen3 .class-img11 {
 	top:82px;
 	left:704px;
 }
-.class-eqImg1.class-gen3 .class-img8-2 {
+.class-eqImg1.class-gen3 .class-img12 {
 	top:82px;
 	left:738px;
 }
-.class-eqImg1.class-gen3 .class-img8-3 {
+.class-eqImg1.class-gen3 .class-img13 {
 	top:120px;
 	left:738px;
 }
-.class-eqImg1.class-gen3 .class-img8-4{
+.class-eqImg1.class-gen3 .class-img14{
 	top:120px;
 	left:772px;
 }
-.class-eqImg1.class-gen3 .class-img8-5 {
+.class-eqImg1.class-gen3 .class-img15 {
 	top:120px;
 	left:704px;
 }
-.class-eqImg1.class-gen3 .class-img9 {
+.class-eqImg1.class-gen3 .class-img16 {
 	top:75px;
 	left:813px;
 }
-.class-eqImg1.class-gen3 .class-img10 {
+.class-eqImg1.class-gen3 .class-img17 {
 	top:98px;
 	left:867px;
 }
-.class-eqImg1.class-gen3 .class-img11 {
+.class-eqImg1.class-gen3 .class-img18 {
 	top:86px;
 	left:921px;
 }
-.class-eqImg1.class-gen3 .class-img12 {
+.class-eqImg1.class-gen3 .class-img19 {
 	top:86px;
 	left:961px;
 }
-.class-eqImg1.class-gen3 .class-img13 {
+.class-eqImg1.class-gen3 .class-img20 {
 	top:121px;
 	left:600px;
 }
-.class-eqImg1.class-gen3 .class-img13-2 {
+.class-eqImg1.class-gen3 .class-img21 {
 	top:121px;
 	left:620px;
 }
-.class-eqImg1.class-gen3 .class-img14 {
+.class-eqImg1.class-gen3 .class-img22 {
 	top:29px;
 	left:1169px;
 }
-.class-eqImg1.class-gen3 .class-img15 {
+.class-eqImg1.class-gen3 .class-img23 {
 	top:150px;
 	left:1157px;
 }
-.class-eqImg1.class-gen3 .class-img16 {
+.class-eqImg1.class-gen3 .class-img24 {
 	top:200px;
 	left:1163px;
 }
-.class-eqImg1.class-gen3 .class-img16-2 {
+.class-eqImg1.class-gen3 .class-img25 {
 	top:200px;
 	left:1184px;
 }
-.class-eqImg1.class-gen3 .class-img16-3 {
+.class-eqImg1.class-gen3 .class-img26 {
 	top:200px;
 	left:1205px;
 }
+
+/* staking img 180322 add seon */
+.class-eqImgWrap.class-staking {text-align:center;}
+.class-eqImgWrap.class-staking img {width:auto; height:190px; margin-left:-4px;}
+
+/* lami img 180322 add seon */
+.class-lami {padding-top:40px; text-align:center;}
+.class-lami img {height:120px; width:auto; margin-left:-4px;}
+
 
 /* 알람 수 */
 #id-eqAlarms {
@@ -1038,7 +1014,7 @@
 	height:40px;
 	/*background-color:rgba(65,211,148,0.5);/*add jin */
 	color:#454545;/*add jin */
-	background-color:#eee!important;/*add jin gray03 */
+	/*background-color:#eee!important;*//*add jin gray03 */
 }
 .class-timelineS {
 	float:left;
@@ -4524,7 +4500,7 @@
 
 
 
-/* 공정현황 add jin 170925*/
+/* 공정현황 add jin 170925 171113_layout*/
 #id-eqProcessStatus {
 	width:100%;
 	height:100px ;
@@ -4533,14 +4509,14 @@
 	box-sizing: inherit;
 }
 .class-eqProcessStatus .class-widgetLeft {
-	width:625px;
+	width:370px;/*add jin 171113_layout*/
 	float:left;
 	background-color:#fff;
 	box-shadow:0px 0px 10px rgba(0,0,0,0.1);
 }
 .class-eqProcessSList li {
 	float:left;
-	width:93.6%;
+	width:89.2%;/*add jin 171113_layout*/
 	margin-right:0px;
 	cursor:pointer;
 	border-right:1px solid #ddd;
@@ -4561,12 +4537,18 @@
 	font-weight:300;
 	color:#9da0a8;
 	margin-bottom:10px;
-	line-height:63px;	
+	line-height:63px;
 }
+
+/*add jin 1113*/
 .class-textLeft {
 	float: left;   
 	color: #9da0a8!important;	
-	line-height:30px;/*add jin 1113*/
+	line-height:30px;
+}
+.class-eqProcessSList .class-textLeft span {
+	font-size:14px; 
+	line-height:25px;
 }
 .class-textRight {	
     text-align: right!important;
@@ -4575,10 +4557,12 @@
 }
 .class-textDark {
     color: #707070!important;
-	font-weight: 600;/*add jin 1113*/
-	margin-top:10px;/*add jin 1113*/
-	line-height:20px;/*add jin 1113*/
+	font-weight: 600;
+	margin-top:10px;
+	line-height:20px;
 }
+/*//add jin 1113*/
+
 .class-textGreen {
     color: #67bb6b!important;
 	font-size:30px;
@@ -4591,7 +4575,7 @@
 }
 /* 알람수 */
 .class-eqAlarmNumber {
-	width:625px;
+	width:900px;/*add jin 171113_layout*/
 	float:right;
 	height:100px ;
 	min-height:100px;
@@ -4600,7 +4584,7 @@
 	box-shadow:0px 0px 10px rgba(0,0,0,0.1);
 }
 .class-eqAlarmNumber .class-widgetRight {
-	width:625px;
+	width:900px;/*add jin 171113_layout*/
 	float:right;
 }
 .class-eqAlarmNumberList div {
@@ -4635,7 +4619,7 @@
 }
 .class-wLeft25 {
 	border-top:4px solid #646c78;
-	width:18.47%;	
+	width:21.12%;	/*add jin 171113_layout*/
 	color: #fff!important;	
 	background-color:#646c78;
 }
