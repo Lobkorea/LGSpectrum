@@ -102,7 +102,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 
 .class-WBIwrap .class-itemWBI {position:relative;}
 .class-WBIalarmPaging {position:absolute; top:5px; right:5px;}
-.class-WBIalarmPaging > .class-paging {display:inline-block; max-width:54px; height:18px; margin:0 -3px; line-height:18px; background:#2e353e; text-align:center; overflow:hidden;}
+.class-WBIalarmPaging > .class-paging {display:inline-block; max-width:90px; height:18px; margin:0 -3px; line-height:18px; background:#2e353e; text-align:center; overflow:hidden;}
 .class-WBIalarmPaging > .class-paging .class-pagingInner {max-width:90px; height:100%;}
 .class-WBIalarmPaging > .class-paging a {display:block; float:left; width:18px; height:18px; color:#FFF; font-size:10px;}
 .class-WBIalarmPaging > .class-paging a.act {color:#1e608a;}
