@@ -105,6 +105,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-WBIalarmPaging > .class-paging {display:inline-block; max-width:90px; height:18px; margin:0 -3px; line-height:18px; background:#2e353e; text-align:center; overflow:hidden;}
 .class-WBIalarmPaging > .class-paging a {display:block; float:left; width:18px; height:18px; color:#FFF; font-size:10px;}
 .class-WBIalarmPaging > .class-paging a.act {color:#1e608a;}
+.class-paging2 {margin:0;}
 .class-WBIalarmPaging > button {width:18px; height:18px; border:none; color:#FFF; vertical-align:top; background:#363d46;}
 .class-itemList02, .class-itemList03{display:none;}
 .class-WBIwrap .class-itemWBI .class-itemList {position:relative; width:100%; height:207px; background:#393f48;}
@@ -223,6 +224,7 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
 .class-timeline .class-timelineAnone {position:absolute; top:50%; margin-top:-8px; width:100%; text-align:center;}
 
 .class-timeline .class-timelineInner {position:relative; height:977px; overflow:auto; padding:0 15px; background:#2e353e;}
+.class-timeline .class-timelineInner {position:relative;}
 .class-timeline .class-timelineInner ul .class-off{display:none;}
 .class-timeline .class-timelineInner li {position:absolute; left:15px; width:365px; height:103px; padding:15px 0; border-bottom:1px dashed #4c545c; transition-duration:3s;}
 
@@ -321,6 +323,99 @@ select {height:30px; padding:0 10px; color:#FFF; font-weight:700; border:none; b
     .class-timelineCount15 {animation:tmCount15 0.5s both;}
 	.class-timeline .class-timelineInner li .class-timelineToday {width:500px;}
 }
+
+@media all and (min-width:1921px) and (max-width:3840px) {
+        /* common */
+    html, body {height:100%;}
+    body {font-size:30px;}
+    .class-center {max-width:100%;}
+    
+        /* top */
+    .class-header {height:100px; padding:0 50px; line-height:100px; margin-bottom:20px;}  
+    .class-title {margin-top:20px;}
+    select {height:55px; font-size:28px;}
+    .class-lineSelect > div.class-lineSim > select {width:250px;}
+    .class-langTime > select {width:200px;}
+        
+        /* container */
+    .class-container {height:calc(100% - 120px); padding-right:31%;}
+    .class-container .class-alarm > div {height:120px;}
+    .class-container .class-alarm > div > p {font-size:38px;}
+    .class-WBIwrap .class-WBIalarmBanner .class-WBIalarmInner .class-eqImgWrap {margin-top:-204px;}
+    .class-WBIwrap {margin-bottom:20px;}
+    .class-WBIwrap .class-WBIalarmBanner .class-WBIalarmInner {height:780px;}
+    .class-WBIwrap .class-WBItitle {height:60px; line-height:60px;}
+    .class-WBIalarmPaging {top:12px; right:10px;}
+    .class-WBIalarmPaging > button {width:36px; height:36px;}
+    .class-WBIalarmPaging > .class-paging {max-width:180px; height:36px;}
+    .class-WBIalarmPaging > .class-paging a {width:36px; height:36px; line-height:36px;}
+    .class-paging2 {margin:0;}
+    .class-itemWBInone {padding-top:130px;}
+    .class-noAicon i {font-size:80px;}
+    .class-noAlarmTxt {font-size:28px;}
+    .class-WBIwrap .class-alarmWBI .class-alarmList, .class-alarmWBInone, .class-itemWBInone {height:400px;}
+    .class-alarmNum h3 {height:60px; line-height:60px; padding-left:20px;}
+    .class-alarmNum .class-numDate .class-dateGraph, .class-alarmNum .class-numMachine .class-machineGraph {height:320px;}
+    .class-alarmNum .class-numDate ul {height:265px;}
+    .class-alarmNum .class-numDate ul li {padding-top:30px;}
+    .class-alarmNum .class-numDate ul li p:last-child {bottom:30px; font-size:26px;}
+    .class-alarmNum .class-numMachine .class-numTit {height:60px; line-height:60px;}
+    .class-alarmNum .class-numMachine ul li:nth-child(2), .class-alarmNum .class-numMachine ul li {height:68px; line-height:68px;}
+    .class-history02 {top:68px;}
+    .class-history03 {top:136px;}
+    .class-alarmNum .class-numTodayRank ul {height:585px;}
+    .class-WBIwrap .class-alarmWBI .class-alarmList > li > .class-listTit {font-size:28px;}
+    .class-alarmLinner03, .class-alarmLinner04 {top:135px;}
+    .class-alarmLinner05, .class-alarmLinner06 {top:270px;}
+    .class-container .class-italic, .class-timeline .class-italic {font-size:26px; line-height:28px; vertical-align:middle;}
+    .class-alarmNum .class-numTodayRank ul li {width:calc(100% - 40px); height:20%; padding:18px 0;}
+    .class-trhList02 {top:20%;}
+    .class-trhList03 {top:40%;}
+    .class-trhList04 {top:60%;}
+    .class-trhList05 {top:80%;}
+    .class-alarmNum .class-numTodayRank .class-rankNum {position:relative; width:40px; height:100%;}
+    .class-alarmNum .class-numTodayRank .class-rankNum p {position:absolute; top:50%; left:0; transform:translateY(-50%); padding:5px 10px; border-radius:4px; font-size:30px;}
+    .class-alarmNum .class-numTodayRank ul li div:nth-child(2) {padding:9px 0;}
+    .class-alarmNum .class-numTodayRank .class-codename {font-size:28px;}
+    .class-alarmNum .class-numTodayRank .class-countnum {font-size:22px;}
+    .class-alarmNum .class-numTodayRank ul li div p {max-width:100%; font-size:24px;}
+    .class-alarmNum .class-numTodayRank .class-history {width:calc(100% - 176px);}
+    .class-toolTip {left:200px;}
+    
+        /* aside */
+    .class-timeline {width:30%;}
+    .class-timeline .class-timeTit {height:60px; line-height:60px; margin-bottom:10px;}
+    .class-timeline .class-timeTit > h3 {font-size:30px;}
+    .class-timeline .class-timeTit > div  {width:40%;}
+    .class-timeline .class-timeTit .class-timelineHistory ul li {width:calc(25% - 5px);}
+    .class-timeline .class-timeTit .class-timelineHistory ul li span:first-child {width:auto; height:auto;}
+    .class-timeline .class-timelineInner li {width:calc(100% - 40px); height:200px;}
+    .class-timeline .class-timelineInner li > div {position:absolute; top:50%; transform:translateY(-50%);}
+    .class-timeline .class-timelineInner li .class-timerwrap {left:0; width:20%;}
+    .class-timeline .class-timelineInner li .class-timelineToday {left:20%; width:80%;}
+    .class-timeline02 {top:200px;}
+    .class-timeline03 {top:400px;}
+    .class-timeline04 {top:600px;}
+    .class-timeline05 {top:800px;}
+    .class-timeline06 {top:1000px;}
+    .class-timeline07 {top:1200px;}
+    .class-timeline08 {top:1400px;}
+    .class-timeline09 {top:1600px;}
+    .class-timeline10 {top:1800px;}
+    .class-timeline11 {top:2000px;}
+    .class-timeline12 {top:2200px;}
+    .class-timeline13 {top:2400px;}
+    .class-timeline14 {top:2600px;}
+    .class-timeline15 {top:2800px;}
+    .class-timeline16 {top:3000px;}
+    .class-timeline17 {top:3200px;}
+    .class-timeline18 {top:3400px;}
+    .class-timeline .class-timelineInner li .class-timerwrap p {margin-bottom:20px;}
+    .class-timeline .class-timelineInner li .class-timerwrap p i {font-size:30px;}
+    .class-timeline .class-timelineInner li .class-timelineToday .class-todayTit {font-size:28px; margin-bottom:10px;}
+    .class-timeline .class-timelineInner li .class-timelineToday p:nth-child(2) {margin-bottom:10px;}
+}
+
 
 /* top 5 alarms animation */
 
